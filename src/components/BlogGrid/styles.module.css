@@ -1,0 +1,14 @@
+.container {
+  width: 85%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 4rem auto;
+}
+
+.blog {
+  width: 30%;
+  height: 250px;
+  border: solid 1px black;
+  margin: 0.5rem;
+}
