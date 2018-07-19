@@ -15,7 +15,11 @@ const IndexPage = ({data}) => {
       <img src={BannerImage}></img>
       <div
         style={{
-          margin: '2rem 10rem'
+          width: '75%',
+          marginTop: '2rem',
+          marginBottom: '3rem',
+          marginLeft: 'auto',
+          marginRight: 'auto'
         }}
       >
         <h1>A blog about happiness</h1>
