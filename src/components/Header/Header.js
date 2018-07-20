@@ -17,9 +17,9 @@ const Header = ({ siteTitle }) => (
       </Link>
     </h3>
     <div className={styles.navButtons}>
-      <h3 style={{ margin: 0 }}>
+      {/* <h3 style={{ margin: 0 }}>
         <Link className={styles.link} to="/about/">About</Link>
-      </h3>
+      </h3> */}
     </div>
   </div>
 )
