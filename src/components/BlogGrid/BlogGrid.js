@@ -4,7 +4,6 @@ import Link from 'gatsby-link'
 import styles from './styles.module.css'
 
 const BlogGrid = ({data}) => {
-  console.log(data)
   return (
     <div className={styles.banner}>
       <div className={styles.container}>
