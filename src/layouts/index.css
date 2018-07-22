@@ -219,7 +219,6 @@ img {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  margin-top: 60px;
 }
 h1 {
   margin-left: 0;
@@ -629,4 +628,8 @@ pre tt:after {
 .blog_wrapper {
   margin: 2rem 10rem;
   text-align: center;
+}
+
+.page {
+  padding-top: 85px;
 }
