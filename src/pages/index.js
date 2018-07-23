@@ -7,11 +7,11 @@ import BlogGrid from '../components/BlogGrid'
 import bannerImage from '../assets/happy-cropped.png'
 
 //Styles
-import styles from './index.styles.module.scss'
+import styles from './styles.module.scss'
 
 const HomePage = ({data}) => {
   return (
-    <div className={styles.page}>
+    <div className={styles.homePage}>
       <img className={styles.bannerImage} src={bannerImage}></img>
       <div className={styles.infoBanner}>
         <h1>A blog about happiness</h1>
