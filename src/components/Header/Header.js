@@ -1,7 +1,12 @@
+//Core Dependencies
 import React from 'react'
 import Link from 'gatsby-link'
 
-import styles from './styles.module.css'
+//Styles
+import styles from './styles.module.scss'
+
+import BookIcon from '../../assets/book.png'
+import AboutIcon from '../../assets/smiling-girl.png'
 
 const Header = ({ siteTitle }) => (
   <div className={styles.header}>
@@ -17,9 +22,14 @@ const Header = ({ siteTitle }) => (
       </Link>
     </h3>
     <div className={styles.navButtons}>
-      {/* <h3 style={{ margin: 0 }}>
-        <Link className={styles.link} to="/about/">About</Link>
-      </h3> */}
+      <Link className={styles.navButton} to="/about/">
+        <img className={styles.navIcon} src={AboutIcon}></img>
+        <h3 className={styles.navText}>About</h3>
+      </Link>
+      <Link className={styles.navButton} to="/books/">
+        <img className={styles.navIcon} src={BookIcon}></img>
+        <h3 className={styles.navText}>Books</h3>
+      </Link>
     </div>
   </div>
 )

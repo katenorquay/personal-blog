@@ -1,27 +1,19 @@
+//Core Dependencies
 import React from 'react'
 import Link from 'gatsby-link'
 
 import BlogGrid from '../components/BlogGrid'
 
-import BannerImage from '../assets/happy-cropped.png'
+import bannerImage from '../assets/happy-cropped.png'
 
-const IndexPage = ({data}) => {
+//Styles
+import styles from './styles.module.scss'
+
+const HomePage = ({data}) => {
   return (
-    <div
-      style={{
-        textAlign: 'center'
-      }}
-    >
-      <img src={BannerImage}></img>
-      <div
-        style={{
-          width: '75%',
-          marginTop: '2rem',
-          marginBottom: '3rem',
-          marginLeft: 'auto',
-          marginRight: 'auto'
-        }}
-      >
+    <div className={styles.homePage}>
+      <img className={styles.bannerImage} src={bannerImage}></img>
+      <div className={styles.infoBanner}>
         <h1>A blog about happiness</h1>
         <p>
           Here's a couple of sentences about what the blog is about.
@@ -35,11 +27,14 @@ const IndexPage = ({data}) => {
   )
 }
 
-export default IndexPage
+export default HomePage
 
 export const query = graphql`
-  query IndexQuery {
-    allMarkdownRemark {
+  query BlogQuery {
+    allMarkdownRemark (
+      filter: { fileAbsolutePath: {regex : "\/blog/"} },
+      sort: { order: DESC, fields: [frontmatter___date]},
+    ) {
       totalCount
       edges {
         node {
