@@ -2,8 +2,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Tags from '../Tags'
-
 //Styles
 import styles from './styles.module.scss'
 
@@ -17,7 +15,6 @@ const BookGrid = ({data}) => {
               <div className={styles.blogText}>
                 <h4>{node.title}</h4>
                 <h4>{node.author}</h4>
-                <Tags tags={node.tags}></Tags>
                 <p>{node.description}</p>
                 <Link to={node.link}>Read More</Link>
               </div>
