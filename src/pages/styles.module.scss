@@ -11,6 +11,11 @@
 .infoBanner {
   width: 75%;
   margin: 2rem auto 3rem auto;
+  h1 { font-size: 50px;}
+  p {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .bannerImage {

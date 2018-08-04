@@ -14,7 +14,7 @@ const HomePage = ({data}) => {
     <div className={styles.homePage}>
       <img className={styles.bannerImage} src={bannerImage}></img>
       <div className={styles.infoBanner}>
-        <h1>A blog about happiness</h1>
+        <h1>Welcome</h1>
         <p>
           Here's a couple of sentences about what the blog is about.
           The secret behind the people that know how to lose weight and those that struggle to lose weight is knowledge.
