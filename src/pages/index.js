@@ -18,8 +18,9 @@ const HomePage = ({data}) => {
         <p>
           My name's Kate. I'm a software engineer with a passion for reading, hot chips and colourful clothes and personal development.
           Since I was 21 I've been struggling with depression. Not cripplingly so, but enough that my life was turning out to be somewhere between aggressively average and a bit of a bummer.
-          This year I was like, you know what, fuck this. I'm sick of living so half heartedly, and of not feeling excited or passionate, when in reality I have a pretty great life.
+          This year I got sick of it. I was struggling to feel excited, or passionate, even though I actually have a pretty great life.
           I decided that I was going to try everything I could to make myself happier, and along the way, learn to be kinder, more energentic and more accepting.
+          
           This blog is my record of that journey.
         </p>
       </div>
