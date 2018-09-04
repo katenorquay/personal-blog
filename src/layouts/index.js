@@ -10,10 +10,11 @@ class Layout extends React.Component {
   constructor(props) {
    super(props);
    this.handleLoad = this.handleLoad.bind(this);
-   this.bodyElem = document.getElementsByTagName('body')
+   this.bodyElem;
  }
 
   componentDidMount() {
+    this.bodyElem = document.getElementsByTagName('body')
     this.bodyElem[0].style.visibility = 'hidden'
     window.addEventListener('load', this.handleLoad);
   }
