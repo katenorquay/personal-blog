@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Why You Haven't Started Your Business Yet."
 description: "why your body loves to store fat, how you can turn it into a fat burning machine, and how to maintain the lifestyle through awesome meals."
 image: "https://unitedwithisrael.org/wp-content/uploads/2014/11/happy.jpg"
@@ -25,4 +25,4 @@ As soon as I saw that written down I could see the ridiculousness of it. A faile
 If you are stuck procastinating and over thinking all you need to do is to ask yourself why. You can't change this behaviour without addressing the reasons behind it. After 8 months of no action,
 understanding and embracing my fear let me sit down and write this blog post.
 
-Here are some starter questions to help you address your own fears.
+Here are some starter questions to help you address your own fears. -->

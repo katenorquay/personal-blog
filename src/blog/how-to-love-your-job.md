@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "How To Love Your Job"
 description: "why your body loves to store fat, how you can turn it into a fat burning machine, and how to maintain the lifestyle through awesome meals."
 image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWPrlJ5uqOOBtO-5lAs3wy14oif-OQeo4NTsUZOacZYqyS9eYH"
@@ -25,4 +25,4 @@ I decided that I needed an attitude adjustment. Not only were my beliefs not mak
 
 The trick to adjusting your attitude is to start small. If you try to go from I hate my job to I love my job you're not going to believe it. Instead tell yourself how much you enjoyed one small aspect of a project. Focus on that co worker who you enjoy the company of. If all you do is stress, practice managing that stress and tell yourself you're lucky to have a chance to do that.
 
-We like to pretend this is harder than it is. We like to say that our circumstances are much harder than others and positive thinking is not possible. But it is always possible. When I was a college graduate who couldn't get a better job than McDonalds I used celebrate when the mustard made a smily face pattern when I squirted it on the bun. There is always something good, even if it's small.
+We like to pretend this is harder than it is. We like to say that our circumstances are much harder than others and positive thinking is not possible. But it is always possible. When I was a college graduate who couldn't get a better job than McDonalds I used celebrate when the mustard made a smily face pattern when I squirted it on the bun. There is always something good, even if it's small. -->
