@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Happiness Project',
+    title: 'A Blog About Happiness',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sass`,
     'gatsby-transformer-remark',
     {
       resolve: `gatsby-source-filesystem`,
@@ -12,6 +13,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

@@ -7,7 +7,7 @@
   width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   margin: 0 auto;
   box-sizing: border-box;
@@ -18,6 +18,8 @@
 .blog {
   min-height: 250px;
   margin-bottom: 2.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   background-color: white;
   border: solid 1px #d6d6d6;
   transition-duration: .2s;
@@ -45,14 +47,14 @@
 }
 
 h4 {
-  color: #626262;
+  color: #14251c;
   margin: 0 0 20px 0;
   font-size: 22px;
 }
 
 p {
   margin: 0 0 20px 0;
-  color: #747474;
+  color: #14251c;
   font-size: 16px;
 }
 
