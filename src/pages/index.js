@@ -14,12 +14,13 @@ const HomePage = ({data}) => {
     <div className={styles.homePage}>
       <img className={styles.bannerImage} src={bannerImage}></img>
       <div className={styles.infoBanner}>
-        <h1>A blog about happiness</h1>
+        <h1>Welcome to my blog about happiness!</h1>
         <p>
-          Here's a couple of sentences about what the blog is about.
-          The secret behind the people that know how to lose weight and those that struggle to lose weight is knowledge.
-          It has nothing to do with secret pills or crazy workouts.
-          In this 3 day challenge, you'll learn why your body loves to store fat, how you can turn it into a fat burning machine, and how to maintain the lifestyle through awesome meals.
+          My name's Kate. I'm a software engineer with a passion for reading, hot chips and colourful clothes and personal development.
+          Since I was 21 I've been struggling with depression. Not cripplingly so, but enough that my life was turning out to be somewhere between aggressively average and a bit of a bummer.
+          This year I was like, you know what, fuck this. I'm sick of living so half heartedly, and of not feeling excited or passionate, when in reality I have a pretty great life.
+          I decided that I was going to try everything I could to make myself happier, and along the way, learn to be kinder, more energentic and more accepting.
+          This blog is my record of that journey.
         </p>
       </div>
       <BlogGrid data={data}/>

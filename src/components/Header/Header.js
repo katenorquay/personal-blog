@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
         {siteTitle}
       </Link>
     </h3>
-    <div className={styles.navButtons}>
+    {/* <div className={styles.navButtons}>
       <Link className={styles.navButton} to="/about/">
         <img className={styles.navIcon} src={AboutIcon}></img>
         <h3 className={styles.navText}>About</h3>
@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
         <img className={styles.navIcon} src={BookIcon}></img>
         <h3 className={styles.navText}>Books</h3>
       </Link>
-    </div>
+    </div> */}
   </div>
 )
 

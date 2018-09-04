@@ -1,0 +1,26 @@
+.pageContainer {
+  text-align: center;
+  margin: 0 auto 55px auto;
+}
+
+.bannerImage {
+  width: 55%;
+}
+
+.contentContainer {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  p {
+    color: #14251c;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.elipsis {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
