@@ -21,7 +21,6 @@ export const query = graphql`
       html
       frontmatter {
         title
-        image
       }
     }
   }
