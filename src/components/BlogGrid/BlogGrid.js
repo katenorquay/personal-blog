@@ -8,19 +8,16 @@ import styles from './styles.module.scss'
 const BlogGrid = ({data}) => {
   return (
     <div className={styles.banner}>
-      <ul className={styles.container}>
+      <ul className={styles.list}>
         {data.allMarkdownRemark.edges.map(({ node }) => {
           if (node.excerpt !== "") {
             let slug = '/blog/' + node.frontmatter.slug
             return (
-              <li key={node.id} className={styles.blog}>
-                <div className={styles.blogContent}>
-                  <img src={node.frontmatter.image} className={styles.blogImage}></img>
-                  <div className={styles.blogText}>
-                    <h4>{node.frontmatter.title}</h4>
-                    <p>{node.frontmatter.description}</p>
-                    <Link to={slug}>Read More</Link>
-                  </div>
+              <li key={node.id} className={styles.listItem}>
+                <div className={styles.listContent}>
+                  <h2>{node.frontmatter.title}</h2>
+                  <p>{node.frontmatter.description}</p>
+                  <Link to={slug}>Read More</Link>
                 </div>
               </li>
             )

@@ -1,7 +1,6 @@
 ---
 title: "What I Learned from Four Years Working at McDonalds"
 description: "How to see the value in all kinds of labour."
-image: "https://www.irishtimes.com/polopoly_fs/1.2826966.1476279703!/image/image.jpg_gen/derivatives/box_620_330/image.jpg"
 date: "2015-11-29"
 slug: "what-i-learned-from-four-years-working-at-mcdonalds"
 ---

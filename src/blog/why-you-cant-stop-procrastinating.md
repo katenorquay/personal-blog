@@ -1,7 +1,6 @@
 ---
 title: "Why You Can't Stop Procrastinating"
 description: "I'm ready to do the work! So why can't I get started? My formula for beating procrastination"
-image: "https://www.new-educ.com/wp-content/uploads/procrastination-1.jpg"
 date: "2018-09-06"
 slug: "why-you-cant-stop-procrastinating"
 ---
