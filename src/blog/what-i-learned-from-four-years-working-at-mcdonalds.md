@@ -1,7 +1,6 @@
 ---
 title: "What I Learned from Four Years Working at McDonalds"
 description: "How to see the value in all kinds of labour."
-image: "http://devcompage.com/wp-content/uploads/2018/04/show-me-pictures-of-ronald-mcdonald-unique-pictures-ronald-mcdonald-pushed-to-retire-of-show-me-pictures-of-ronald-mcdonald.jpg"
 date: "2015-11-29"
 slug: "what-i-learned-from-four-years-working-at-mcdonalds"
 ---

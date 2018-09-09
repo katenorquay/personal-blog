@@ -1,7 +1,6 @@
 ---
 title: "Why You Can't Stop Procrastinating"
 description: "I'm ready to do the work! So why can't I get started? My formula for beating procrastination"
-image: "https://www.new-educ.com/wp-content/uploads/procrastination-1.jpg"
 date: "2018-09-06"
 slug: "why-you-cant-stop-procrastinating"
 ---
@@ -36,19 +35,25 @@ You can't change this behaviour without addressing the reasons behind it. I know
 
 Here's a quick start guide if you want to stop procrastinating:
 
-1. Get curious about your behaviour. Why are you procrastinating? What would it mean if you failed? And what would it mean if you succeeded?
-
-If your answer is 'I don't have time!', or 'I don't know what to do', or 'I need time to relax', then question why you are CHOOSING to think that. I have had every one of these thoughts. I believed them so I could let myself off the hook. So I could stay in my comfort zone.
-
-2. Whatever your reasons for procrastinating, accept them. Show yourself some compassion. It doesn't matter how much time you have wasted in the past. Forgive yourself. Feeling guilty or beating yourself up is not going to help you stop procrastinating, it will make you feel apathetic and keep you stuck.
-
-3. Decide to do the work. This doesn't have to be a big deal. If you want to start a blog promise yourself that you'll write 100 words a day. The size of the goal isn't important. Neither is the quality of the work. What is important is that you start thinking of yourself as a person that can keep a promise to themselves. A person that can stick to a habit.
-
-4. Make it easy to do the work. Figure out what you need to do. Write it down. Don't allow yourself to become confused. Don't change your mind. Commit to what you are going to do, and commit to when you are going to do it.
-
-It's easy to say 'I want to do some writing this week..' and then on Sunday night decide you're too tired. But when you say 'I'm going to write a blog on procrastination for 20 minutes, Thursday night at 8.30' it's a lot harder to wriggle out of it.
-
-5. Rinse and repeat. Your brain is going to come up with new reasons to avoid doing this work. You are going to have new fears. You are going to fail sometimes. Be curious about why, forgive yourself, and set new goals.
+<ul>
+  <li>
+    <b>1.</b> Get curious about your behaviour. Why are you procrastinating? What would it mean if you failed? And what would it mean if you succeeded?
+    <br><br>If your answer is 'I don't have time!', or 'I don't know what to do', or 'I need time to relax', then question why you are CHOOSING to think that. I have had every one of these thoughts. I believed them so I could let myself off the hook. So I could stay in my comfort zone.<br><br>
+  </li>
+  <li>
+    <b>2.</b> Whatever your reasons for procrastinating, accept them. Show yourself some compassion. It doesn't matter how much time you have wasted in the past. Forgive yourself. Feeling guilty or beating yourself up is not going to help you stop procrastinating, it will make you feel apathetic and keep you stuck.<br><br>
+  </li>
+  <li>
+    <b>3.</b> Decide to do the work. This doesn't have to be a big deal. If you want to start a blog promise yourself that you'll write 100 words a day. The size of the goal isn't important. Neither is the quality of the work. What is important is that you start thinking of yourself as a person that can keep a promise to themselves. A person that can stick to a habit.<br><br>
+  </li>
+  <li>
+    <b>4.</b> Make it easy to do the work. Figure out what you need to do. Write it down. Don't allow yourself to become confused. Don't change your mind. Commit to what you are going to do, and commit to when you are going to do it.
+    <br><br> It's easy to say 'I want to do some writing this week..' and then on Sunday night decide you're too tired. But when you say 'I'm going to write a blog on procrastination for 20 minutes, Thursday night at 8.30' it's a lot harder to wriggle out of it.<br><br>
+  </li>
+  <li>
+    <b>5.</b> Rinse and repeat. Your brain is going to come up with new reasons to avoid doing this work. You are going to have new fears. You are going to fail sometimes. Be curious about why, forgive yourself, and set new goals.<br><br>
+  </li>
+</ul>
 
 You owe it to yourself to dream big and to try.
 
