@@ -1,6 +1,6 @@
 ---
-title: "How To Love Your Job"
-description: "How to start loving something you hate"
+title: "How To Love Your Job (even when you hate it)"
+description: "How to start changing your negative thought patterns"
 date: "2018-09-16"
 image: './how-to-love-your-job.png'
 slug: "how-to-love-your-job"
