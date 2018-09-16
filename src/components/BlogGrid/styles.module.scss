@@ -1,78 +1,81 @@
 .banner {
   background-color: #f0f0f0;
   width: 100%;
+  padding-bottom: 25px;
 }
-
-.container {
-  width: 80%;
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+.list {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0;
   padding-top: 2.5rem;
+  width: 95%;
 }
 
-.blog {
-  min-height: 250px;
-  margin-bottom: 2.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+.listItem {
+  display: flex;
   background-color: white;
   border: solid 1px #d6d6d6;
   transition-duration: .2s;
   transition-property: box-shadow;
+  text-align: left;
+  width: 24%;
+  padding: 1em;
+  margin-bottom: 1em;
 }
 
-.blog:hover {
+.listItem:hover {
   -webkit-box-shadow: 0 12px 18px -6px #626262;
      -moz-box-shadow: 0 12px 18px -6px #626262;
           box-shadow: 0 12px 18px -6px #626262;
 }
-
-.blogText {
-  text-align: left;
-  box-sizing: border-box;
-  padding: 10px 15px;
+.listContent {
+	background-color: #fff;
+  display: flex;
+  flex-direction: column;
+	width: 100%;
 }
-
-.blogImage {
-  margin-bottom: 0;
-  margin-top: 0;
-  width: 100%;
-  height: 165px;
-  overflow: hidden;
+.listContent p {
+  color: #14251c;
+  font-size: 16px;
+  flex-grow: 1;
+  text-transform: none;
+  height: 100px;
 }
-
 h4 {
-  color: #626262;
-  margin: 0 0 20px 0;
+  color: #14251c;
   font-size: 22px;
 }
 
-p {
-  margin: 0 0 20px 0;
-  color: #747474;
-  font-size: 16px;
-}
-
-a {
-  color: #4285f4;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-@media only screen and (min-width: 800px) {
-  .container {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .blog {
+@media (max-width: 1200px) {
+  .listItem {
     width: 30%;
-    min-width: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .listItem {
+    width: 45%;
+  }
+}
+
+@media (max-width: 500px) {
+  .list {
+    justify-content: center;
+  }
+  .listItem {
+    width: 80%;
   }
 }

@@ -1,6 +1,7 @@
 //Core Dependencies
 import React from 'react'
 import Link from 'gatsby-link'
+import Img from "gatsby-image"
 
 //Styles
 import styles from './styles.module.scss'
@@ -8,21 +9,27 @@ import styles from './styles.module.scss'
 const BlogGrid = ({data}) => {
   return (
     <div className={styles.banner}>
-      <div className={styles.container}>
+      <ul className={styles.list}>
         {data.allMarkdownRemark.edges.map(({ node }) => {
-          let slug = '/blog/' + node.frontmatter.slug
-          return (
-            <div key={node.id} className={styles.blog}>
-              <img src={node.frontmatter.image} className={styles.blogImage}></img>
-              <div className={styles.blogText}>
-                <h4>{node.frontmatter.title}</h4>
-                <p>{node.frontmatter.description}</p>
-                <Link to={slug}>Read More</Link>
-              </div>
-            </div>
-          )
+          if (node.excerpt !== "") {
+            let slug = '/blog/' + node.frontmatter.slug
+            return (
+              <li key={node.id} className={styles.listItem}>
+                <Link to={slug}>
+                  <div className={styles.listContent}>
+                    {
+                      node.frontmatter.image ?
+                        <img src={node.frontmatter.image.childImageSharp.resize.src}></img>
+                      : null
+                    }
+                    <p>{node.frontmatter.description}</p>
+                  </div>
+                </Link>
+              </li>
+            )
+          }
         })}
-      </div>
+      </ul>
     </div>
   )
 }

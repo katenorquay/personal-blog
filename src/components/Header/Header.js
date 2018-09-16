@@ -7,21 +7,14 @@ import styles from './styles.module.scss'
 
 import BookIcon from '../../assets/book.png'
 import AboutIcon from '../../assets/smiling-girl.png'
+import HomeIcon from '../../assets/house.png'
 
 const Header = ({ siteTitle }) => (
   <div className={styles.header}>
-    <h3 style={{ margin: 0 }}>
-      <Link
-        to="/"
-        style={{
-          color: 'black',
-          textDecoration: 'none',
-        }}
-      >
-        {siteTitle}
-      </Link>
-    </h3>
-    <div className={styles.navButtons}>
+    <Link to="/">
+      <img className={styles.navIcon} src={HomeIcon}></img>
+    </Link>
+    {/* <div className={styles.navButtons}>
       <Link className={styles.navButton} to="/about/">
         <img className={styles.navIcon} src={AboutIcon}></img>
         <h3 className={styles.navText}>About</h3>
@@ -30,7 +23,7 @@ const Header = ({ siteTitle }) => (
         <img className={styles.navIcon} src={BookIcon}></img>
         <h3 className={styles.navText}>Books</h3>
       </Link>
-    </div>
+    </div> */}
   </div>
 )
 
