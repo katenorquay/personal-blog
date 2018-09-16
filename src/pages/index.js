@@ -44,6 +44,13 @@ export const query = graphql`
             title
             description
             date(formatString: "DD MMMM, YYYY")
+            image {
+              childImageSharp {
+                resize(width:600,height:900) {
+                  src
+                }
+              }
+            }
             slug
           }
           excerpt

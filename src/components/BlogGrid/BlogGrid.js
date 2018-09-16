@@ -1,6 +1,7 @@
 //Core Dependencies
 import React from 'react'
 import Link from 'gatsby-link'
+import Img from "gatsby-image"
 
 //Styles
 import styles from './styles.module.scss'
@@ -14,11 +15,16 @@ const BlogGrid = ({data}) => {
             let slug = '/blog/' + node.frontmatter.slug
             return (
               <li key={node.id} className={styles.listItem}>
-                <div className={styles.listContent}>
-                  <h2>{node.frontmatter.title}</h2>
-                  <p>{node.frontmatter.description}</p>
-                  <Link to={slug}>Read More</Link>
-                </div>
+                <Link to={slug}>
+                  <div className={styles.listContent}>
+                    {
+                      node.frontmatter.image ?
+                        <img src={node.frontmatter.image.childImageSharp.resize.src}></img>
+                      : null
+                    }
+                    <p>{node.frontmatter.description}</p>
+                  </div>
+                </Link>
               </li>
             )
           }

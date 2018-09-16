@@ -2,6 +2,7 @@
 title: "Why You Can't Stop Procrastinating"
 description: "I'm ready to do the work! So why can't I get started? My formula for beating procrastination"
 date: "2018-09-06"
+image: './why-you-cant-stop-procrastinating.png'
 slug: "why-you-cant-stop-procrastinating"
 ---
 
