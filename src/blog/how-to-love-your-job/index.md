@@ -1,7 +1,7 @@
 ---
 title: "How To Love Your Job"
 description: "How to start loving something you hate"
-date: "2018-08-04"
+date: "2018-09-16"
 image: './how-to-love-your-job.png'
 slug: "how-to-love-your-job"
 ---
