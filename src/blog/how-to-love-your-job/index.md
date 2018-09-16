@@ -5,7 +5,6 @@ date: "2018-09-16"
 image: './how-to-love-your-job.png'
 slug: "how-to-love-your-job"
 ---
-How to love your job (even when you hate it)
 
 Many of us want to quit our 9 to 5. We hate our office because it has no windows, or we hate our grumpy manager, or we hate a stress inducing project. We spend 40 hours a week at this place, and we resent it. We dream of a future where the work is more interesting, challenging and better paid. Because that would make us happy.
 
@@ -15,7 +14,7 @@ The issue is that we believe that our feelings are caused by our external circum
 
 We don't hate our office because it's dingy and has no windows. We hate it because we have DECIDED that 'can't do my best work in a place like this!' or 'The reason I have this office is because my boss doesn't respect me'. We DECIDE that we MUST HAVE light and space, and when we don't get it we feel upset.
 
-The problem with this is that you are giving the key to your happiness to something that you have no control over. When your external circumstances ditate the way you feel and think it's easy to feel helpless.
+The problem with this is that you are giving the key to your happiness to something that you have no control over. When your external circumstances dictate the way you feel and think it's easy to feel helpless.
 
 So how do you stop hating your job? You forgot about the external circumstances and you fix your thinking. You DECIDE not to hate it.
 
@@ -23,13 +22,13 @@ What?! How the hell are you supposed to just stop hating something?
 
 Let me give you an example.
 
-When I first started working I didn't enjoy my job. When I was first started I found the work difficult and I was scared to ask for help too often in case I showcased my own stupidity. I spent a lot of time frustrated. I wasn't working with my preferred technology and thought about how much better that would be. I also work in a very quiet office, with a lot of introverts and I was lonely. I thought as my job as 'skill building' for the future and told myself it didn't have to be fun, I would just endure it.
+When I first started working I didn't enjoy my job. When I was first started I found the work difficult and I was scared to ask for help too often in case I showcased my own stupidity. I spent a lot of time frustrated. I wasn't working with my preferred technology and thought about how much better that would be. I also work in a very quiet office, with a lot of introverts, and I was lonely. I thought as my job as 'skill building' for the future and told myself it didn't have to be fun, I would just endure it.
 
 By the time I had been there 6 months I was pretty miserable. And no wonder! If you decide that you're not going to have fun at a place you spend 40 hours a week at then you are setting yourself up for misery.
 
 I believed that my misery was caused by the difficulty of the work, the technology, the quiet office, but in reality it was caused by my thinking. I was waking up every day telling myself I wasn't going to enjoy it. I was looking for things that would confirm this belief.
 
-Our brains like to keep us efficient. They do so by making it easy and comfortable to think the same thoughts again and again. So if you always think negative thoughts your brain is going to optimise that process and make it easy for you to keep doing so.
+Our brains like to keep us efficient. They do so by making it easy and comfortable to think the same thoughts again and again. So if you always think negative thoughts your brain is going to optimise that process. It tries to help you, by making it easy for you to keep thinking the same way.
 
 I was deep in this cycle of negativity, when I realised that I had to change my attitude, or I had to quit. Not only were my beliefs not making me happy, they were making me a lazier and less motivated employee. Something had to give.
 
