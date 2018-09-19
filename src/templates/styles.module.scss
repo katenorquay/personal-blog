@@ -1,6 +1,6 @@
 .pageContainer {
   text-align: center;
-  margin: 55px auto 0 auto;
+  margin: 55px auto;
 }
 
 .contentContainer {
@@ -19,4 +19,10 @@
   font-size: 50px;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+@media (max-width: 1000px) {
+  .contentContainer {
+    width: 75%;
+  }
 }

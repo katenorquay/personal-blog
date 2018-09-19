@@ -59,3 +59,5 @@ Here's a quick start guide if you want to stop procrastinating:
 You owe it to yourself to dream big and to try.
 
 You got this.
+
+<i>These ideas are based on my learnings from Brooke Castillo's Self Coaching Scholars. If you enjoyed this post I strongly recommend you check out <a href='https://thelifecoachschool.com/podcasts'>Brooke's podcast</a></i>
