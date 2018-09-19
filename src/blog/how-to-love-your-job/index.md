@@ -1,5 +1,5 @@
 ---
-title: "How To Love Your Job (even when you hate it)"
+title: "How To Love Your Job (Even When You Hate It)"
 description: "How to start changing your negative thought patterns"
 date: "2018-09-16"
 image: './how-to-love-your-job.png'
@@ -49,3 +49,5 @@ Today, I can honestly say I love my job. The work and the people have changed ve
 This is not easy. You have to consciously work on your thinking and you have to do it everyday. Your brain will fight you on this. It will tell you that your circumstances are different, that it's too hard, that you're too busy. It will want you to give up because it's less work.
 
 But if you could wake up everyday excited to go to work, if you could love your projects and co workers, if you could even miss working (just a little bit) when you go on holiday, then wouldn't that be worth it?
+
+<i>These ideas are based on my learnings from Brooke Castillo's Self Coaching Scholars. If you enjoyed this post I strongly recommend you check out <a href='https://thelifecoachschool.com/podcasts'>Brooke's podcast</a></i>
