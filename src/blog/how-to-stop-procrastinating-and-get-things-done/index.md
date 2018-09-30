@@ -1,9 +1,9 @@
 ---
-title: "Why You Can't Stop Procrastinating"
+title: "How to Stop Procrastinating and Get Things Done"
 description: "I'm ready to do the work! So why can't I get started? My formula for beating procrastination"
 date: "2018-09-06"
-image: './why-you-cant-stop-procrastinating.png'
-slug: "why-you-cant-stop-procrastinating"
+image: './how-to-stop-procrastinating-and-get-things-done.png'
+slug: "how-to-stop-procrastinating-and-get-things-done"
 ---
 
 I've been interested in starting a blog for a loooooong time. I have spent hours listening to business podcasts, researching online marketing and trawling pintrest for inspiration.
