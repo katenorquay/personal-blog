@@ -1,9 +1,9 @@
 ---
-title: "How To Love Your Job (Even When You Hate It)"
+title: "How to Stop Hating Your Job"
 description: "How to start changing your negative thought patterns"
 date: "2018-09-16"
-image: './how-to-love-your-job.png'
-slug: "how-to-love-your-job"
+image: './how-to-stop-hating-your-job.png'
+slug: "how-to-stop-hating-your-job"
 ---
 
 Many of us want to quit our 9 to 5. We hate our office because it has no windows, or we hate our grumpy manager, or we hate a stress inducing project. We spend 40 hours a week at this place, and we resent it. We dream of a future where the work is more interesting, challenging and better paid. Because that would make us happy.
