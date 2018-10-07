@@ -60,12 +60,22 @@ They share their own journeys with us, and watching them choose to forgive, in t
 
 To help you get started with forgiveness, here are a few ways to find compassion and empathy when you don’t think you can.
 
-1) Remember that every person came from circumstances that you don't understand. People that are hurt, hurt people.
-2) Remember that every person was once innocent. No one was born cruel.
-3) Know that if you were in that exact same circumstance, you may have done the same thing. You like to think that you wouldn’t have. And perhaps you wouldn’t. But there is no way you can know that with absolute certainty.
-4) Think about how it must feel to be that person. When I think of my abuser, I imagine what it must feel like to hurt another person like this. They may feel guilt or pain and suffer in their own way. From here it is easy to be angry, and tell yourself they deserve that guilt. But instead, reach for compassion. Sit with their guilt and pain, and feel their suffering.
-
-If you believe they don’t feel any guilt or pain, imagine that. Imagine hurting someone and not even caring. Being that cold must feel terrible. A life without compassion is a life half lived.
+<ol>
+  <li>
+    1. Remember that every person came from circumstances that you don't understand. People that are hurt, hurt people.<br></br>
+  </li>
+  <li>
+    2. Remember that every person was once innocent. No one was born cruel.<br></br>
+  </li>
+  <li>
+    3. Know that if you were in that exact same circumstance, you may have done the same thing. You like to think that you wouldn’t have. And perhaps you wouldn’t. But there is no way you can know that with absolute certainty.<br></br>
+  </li>
+  <li>
+    4. Think about how it must feel to be that person. When I think of my abuser, I imagine what it must feel like to hurt another person like this. They may feel guilt or pain and suffer in their own way. From here it is easy to be angry, and tell yourself they deserve that guilt. But instead, reach for compassion. Sit with their guilt and pain, and feel their suffering.<br></br>
+    
+    If you believe they don’t feel any guilt or pain, imagine that. Imagine hurting someone and not even caring. Being that cold must feel terrible. A life without compassion is a life half lived.
+  </li>
+</ol>
 
 As you do this work, remember it is not about the person who hurt you, it’s not about what they did, or the suffering you felt.
 
