@@ -18,8 +18,8 @@ const BlogGrid = ({data}) => {
                 <Link to={slug}>
                   <div className={styles.listContent}>
                     {
-                      node.frontmatter.image ?
-                        <img src={node.frontmatter.image.childImageSharp.resize.src}></img>
+                      node.frontmatter.primaryImage ?
+                        <img src={node.frontmatter.primaryImage.childImageSharp.resize.src}></img>
                       : null
                     }
                     <p>{node.frontmatter.description}</p>

@@ -1,12 +1,12 @@
+
 .pageContainer {
   text-align: center;
-  margin: 55px auto;
+  margin-bottom: 55px;
 }
 
 .contentContainer {
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 55px auto;
   width: 55%;
   p {
     color: #14251c;
@@ -24,5 +24,8 @@
 @media (max-width: 1000px) {
   .contentContainer {
     width: 75%;
+  }
+  .titleBanner {
+    h1 {font-size: 35px;}
   }
 }

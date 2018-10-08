@@ -1,8 +1,9 @@
 ---
 title: "5 Best Podcasts For Personal Development"
-description: ""
+description: "My favourite podcasts for improving mental health and wellbeing"
 date: "2018-09-06"
-image: './5-best-podcasts-for-personal-development.png'
+primaryImage: './primary-image.png'
+secondaryImage: './secondary-image.jpg'
 slug: "5-best-podcasts-for-personal-development"
 ---
 

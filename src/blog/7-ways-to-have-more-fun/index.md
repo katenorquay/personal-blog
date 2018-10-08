@@ -1,8 +1,9 @@
 ---
 title: "7 Ways To Have More Fun"
-description: ""
+description: "How to get serious about play and find more joy in your life"
 date: "2018-09-06"
-image: './7-ways-to-have-more-fun.png'
+primaryImage: './primary-image.png'
+secondaryImage: './secondary-image.jpg'
 slug: "7-ways-to-have-more-fun"
 ---
 
