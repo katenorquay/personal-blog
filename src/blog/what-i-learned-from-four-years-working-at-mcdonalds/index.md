@@ -2,7 +2,8 @@
 title: "What I Learned from Four Years Working at McDonalds"
 description: "How to see the value in all kinds of labour."
 date: "2015-11-29"
-image: './what-i-learned-from-four-years-working-at-mcdonalds.png'
+primaryImage: './primary-image.png'
+secondaryImage: './secondary-image.jpg'
 slug: "what-i-learned-from-four-years-working-at-mcdonalds"
 ---
 

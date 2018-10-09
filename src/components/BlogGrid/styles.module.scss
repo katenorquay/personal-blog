@@ -16,7 +16,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0;
@@ -33,7 +33,7 @@ h2 {
   text-align: left;
   width: 24%;
   padding: 1em;
-  margin-bottom: 1em;
+  margin: 0 0.3em 1em 0.3em;
 }
 
 .listItem:hover {
