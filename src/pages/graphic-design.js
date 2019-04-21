@@ -1,7 +1,7 @@
 //Core Dependencies
 import React from 'react'
 
-import bannerImage from '../assets/graphic_design.png'
+import bannerImage from '../assets/graphic_design_2.png'
 
 //Styles
 import styles from './styles.module.scss'

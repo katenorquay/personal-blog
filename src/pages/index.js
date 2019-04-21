@@ -18,7 +18,7 @@ const HomePage = ({data}) => {
 export default HomePage
 
 export const query = graphql`
-  query BlogQuery {
+  query HomeQuery {
     allMarkdownRemark (
       filter: { fileAbsolutePath: {regex : "\/writing/"} },
       sort: { order: DESC, fields: [frontmatter___date]},
