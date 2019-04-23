@@ -2,6 +2,7 @@
 title: "How to Stop Procrastinating and Get Things Done"
 description: "I'm ready to do the work! So why can't I get started? My formula for beating procrastination"
 date: "2018-09-06"
+tags: "blog"
 primaryImage: './primary-image.png'
 secondaryImage: './secondary-image.jpg'
 slug: "how-to-stop-procrastinating-and-get-things-done"

@@ -2,6 +2,7 @@
 title: "The Number One Thing You Can Do To Practice Self Care"
 description: "How to find compassion and empathy when you don't think you can"
 date: "2018-09-16"
+tags: "blog"
 primaryImage: './primary-image.png'
 secondaryImage: './secondary-image.jpg'
 slug: "the-number-one-thing-you-can-do-to-practice-self-care"

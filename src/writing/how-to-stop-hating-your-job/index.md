@@ -2,6 +2,7 @@
 title: "How to Stop Hating Your Job"
 description: "How to start changing your negative thought patterns"
 date: "2018-09-16"
+tags: "blog"
 primaryImage: './primary-image.png'
 secondaryImage: './secondary-image.jpg'
 slug: "how-to-stop-hating-your-job"
