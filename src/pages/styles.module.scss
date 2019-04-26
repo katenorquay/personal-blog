@@ -1,26 +1,26 @@
-.homePage {
-  text-align: center;
-}
-
 .page {
   text-align: center;
   width: 95%;
   margin: 2rem auto;
 }
 
-.infoBanner {
-  background-color: #FFD800;
-  .textContainer {
-    width: 75%;
-    margin: 0 auto;
-    padding: 5rem;
-  }
+.codeBanner {
+  background-color:#0099ff;
 }
 
-.bannerImage {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.writingBanner {
+  background-color: #FFD800;
+}
+
+.designBanner {
+  background-color: #ff0000;
+}
+
+.textContainer {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  padding: 8rem 4rem;
 }
 
 .sliderContainer {

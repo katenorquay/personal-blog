@@ -22,6 +22,7 @@
   flex-direction: column;
   align-items: center;
   width:100px;
+  border-radius: 100px;
   cursor:pointer;
 }
 
@@ -30,10 +31,27 @@
   margin: 10px;
 }
 
+.homeIcon {
+  width: 50px;
+  margin-bottom:0;
+}
+
 .navText {
   text-decoration: none;
   font-size: 12px;
   letter-spacing: 1px;
   color: black;
   margin: 0
+}
+
+.designActive {
+  border: solid 3px #ff0000;
+}
+
+.codeActive {
+  border: solid 3px #0099ff;;
+}
+
+.writingActive {
+  border: solid 3px #FFD800;
 }

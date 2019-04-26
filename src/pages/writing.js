@@ -1,9 +1,8 @@
 //Core Dependencies
-import React, {Component} from 'react'
+import React, { Component } from 'react'
+import { graphql } from 'gatsby'
 
 import BlogGrid from '../components/BlogGrid'
-
-import bannerImage from '../assets/writing.png'
 
 //Styles
 import styles from './styles.module.scss'
@@ -14,9 +13,12 @@ class WritingPage extends Component {
     this.state = {
       page: 'blog'
     }
+
+    this.inputRef = React.createRef()
   }
 
   changeHandler = (event) => {
+    console.log(event.target.checked)
     if (event.target.checked === true) {
       this.setState({page: 'review'})
     } else {
@@ -24,14 +26,18 @@ class WritingPage extends Component {
     }
   }
 
+  clickHandler = (checked) => {
+    var event = new Event('change');
+    this.inputRef.dispatchEvent(event);
+  }
+
   render() {
     let { data } = this.props
     let { page } = this.state
     let items = data.allMarkdownRemark.edges.filter((edge) => edge.node.frontmatter.tags === page)
-    console.log(items)
     return (
       <div className={styles.homePage}>
-        <div className={styles.infoBanner}>
+        <div className={styles.writingBanner}>
           <div className={styles.textContainer}>
             <h1>Writing</h1>
             <p>
@@ -41,7 +47,7 @@ class WritingPage extends Component {
             <div className={styles.sliderContainer}>
               <p>Blog</p>
               <label className={styles.switch}>
-                <input type="checkbox" onChange={this.changeHandler}/>
+                <input type="checkbox" onChange={this.changeHandler} ref={this.inputRef}/>
                 <span className={styles.slider}></span>
               </label>
               <p>Reviews</p>

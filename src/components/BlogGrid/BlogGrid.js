@@ -1,7 +1,6 @@
 //Core Dependencies
 import React from 'react'
 import Link from 'gatsby-link'
-import Img from "gatsby-image"
 
 //Styles
 import styles from './styles.module.scss'
@@ -19,7 +18,7 @@ const BlogGrid = ({data}) => {
                   <div className={styles.listContent}>
                     {
                       node.frontmatter.primaryImage ?
-                        <img src={node.frontmatter.primaryImage.childImageSharp.resize.src}></img>
+                        <img src={node.frontmatter.primaryImage.childImageSharp.resize.src} alt={node.frontmatter.title}></img>
                       : null
                     }
                     <p>{node.frontmatter.description}</p>

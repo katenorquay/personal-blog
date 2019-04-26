@@ -1,13 +1,6 @@
 //Core Dependencies
 import React from 'react'
-import Link from 'gatsby-link'
-
-import BlogGrid from '../components/BlogGrid'
-
-import bannerImage from '../assets/happy-cropped.png'
-
-//Styles
-import styles from './styles.module.scss'
+import { graphql } from 'gatsby'
 
 const HomePage = ({data}) => {
   return (
