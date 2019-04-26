@@ -11,7 +11,6 @@ import WritingIcon from '../../assets/writing-icon.png'
 import MarketingIcon from '../../assets/brain-icon.png'
 
 const Header = (props) => {
-  console.log(props)
   return (
     <div className={styles.header}>
     <Link to="/">
