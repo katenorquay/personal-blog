@@ -21,6 +21,9 @@ const BlogGrid = ({data}) => {
           I decided that I was going to try everything I could to create peace and self love, and along the way, learn to be kinder, more energentic and more accepting.
           This blog is ideas i've collected, ways of thinking and habits that work for me, and things that inspire me.
         </p>
+        <p>
+          I hope it gives you some encouragement on your own mental health journey
+        </p>
       </div>
       <ul className={styles.list}>
         {data.map(({ node }) => {

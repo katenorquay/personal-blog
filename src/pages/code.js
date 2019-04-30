@@ -40,7 +40,7 @@ export const query = graphql`
             slug
             primaryImage {
               childImageSharp {
-                resize(width:600,height:900) {
+                resize(width:1000,height:500) {
                   src
                 }
               }

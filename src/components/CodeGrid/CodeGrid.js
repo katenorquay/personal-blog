@@ -30,6 +30,7 @@ const CodeGrid = ({data}) => {
                 <div className={styles.listContent}>
                   <h2>{node.frontmatter.title}</h2>
                   <p>{node.frontmatter.description}</p>
+                  <img src={node.frontmatter.primaryImage.childImageSharp.resize.src} alt={node.frontmatter.title}></img>
                 </div>
               </a>
             </li>
