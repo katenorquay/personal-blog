@@ -5,26 +5,30 @@ import Link from 'gatsby-link'
 //Styles
 import styles from './styles.module.scss'
 
-import BookIcon from '../../assets/book.png'
-import AboutIcon from '../../assets/smiling-girl.png'
-import HomeIcon from '../../assets/house.png'
+import HomeIcon from '../../assets/home-icon.png'
+import GraphicDesignIcon from '../../assets/paint-icon.png'
+import WritingIcon from '../../assets/writing-icon.png'
+import CodeIcon from '../../assets/brain-icon.png'
 
-const Header = ({ siteTitle }) => (
-  <div className={styles.header}>
+const Header = () => {
+  return (
+    <div className={styles.header}>
     <Link to="/">
-      <img className={styles.navIcon} src={HomeIcon}></img>
+      <img className={styles.homeIcon} src={HomeIcon}></img>
     </Link>
-    {/* <div className={styles.navButtons}>
-      <Link className={styles.navButton} to="/about/">
-        <img className={styles.navIcon} src={AboutIcon}></img>
-        <h3 className={styles.navText}>About</h3>
+    <div className={styles.navButtons}>
+      {/* <Link className={styles.navButton} activeClassName={styles.designActive} to="/graphic-design/">
+        <img className={styles.navIcon} src={GraphicDesignIcon}></img>
+      </Link> */}
+      <Link className={styles.navButton} activeClassName={styles.writingActive} to="/writing/">
+        <img className={styles.navIcon} src={WritingIcon}></img>
       </Link>
-      <Link className={styles.navButton} to="/books/">
-        <img className={styles.navIcon} src={BookIcon}></img>
-        <h3 className={styles.navText}>Books</h3>
+      <Link className={styles.navButton} activeClassName={styles.codeActive} to="/code/">
+        <img className={styles.navIcon} src={CodeIcon}></img>
       </Link>
-    </div> */}
+    </div>
   </div>
-)
+  )
+}
 
 export default Header

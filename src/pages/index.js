@@ -1,60 +1,45 @@
 //Core Dependencies
 import React from 'react'
-import Link from 'gatsby-link'
-
-import BlogGrid from '../components/BlogGrid'
-
-import bannerImage from '../assets/happy-cropped.png'
-
-//Styles
+import { graphql } from 'gatsby'
+import Layout from '../components/Layout'
+import kate from '../assets/kate.jpg'
 import styles from './styles.module.scss'
+
 
 const HomePage = ({data}) => {
   return (
-    <div className={styles.homePage}>
-      <img className={styles.bannerImage} src={bannerImage}></img>
-      <div className={styles.infoBanner}>
-        <h1>Welcome to my blog about happiness!</h1>
-        <p>
-          My name's Kate. I'm a software engineer with a passion for reading, hot chips and colourful clothes and personal development.
-          Since I was 21 I've been struggling with depression. Not cripplingly so, but enough that I felt like I was just getting through the days, rather than really experiencing my life.
-          This year I got sick of it.
-          I decided that I was going to try everything I could to make myself happier, and along the way, learn to be kinder, more energentic and more accepting.
-          This blog is my record of that journey, ideas i've collected, ways of thinking and habits that work for me, and things that inspire me.
-        </p>
+    <Layout data={data}>
+
+      <div className={styles.aboutSection}>
+        <div className={styles.imageContainer}>
+          <img src={kate}></img>
+        </div>
+        <div className={styles.aboutTextContainer}>
+          <h2>Hi! I'm Kate Norquay.</h2>
+          <p>
+            I'm a software developer living in Wellington.
+            I love coffee, hot chips, Javascript and frontend development. 
+          </p>
+          <p>
+          This year I am taking courses in Facebook Marketing and Graphic Design and am excited to learn more in these areas.
+          </p>
+          <p>
+          I'm interested in mental health and personal development, and enjoy recording my learnings on my blog.
+            I'm committed to courage, kindness and discipline and hope to inspire a sense of self love and belonging in others.
+          </p>
+        </div>
       </div>
-      <BlogGrid data={data}/>
-    </div>
+    </Layout>
   )
 }
 
 export default HomePage
 
 export const query = graphql`
-  query BlogQuery {
-    allMarkdownRemark (
-      filter: { fileAbsolutePath: {regex : "\/blog/"} },
-      sort: { order: DESC, fields: [frontmatter___date]},
-    ) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            description
-            date(formatString: "DD MMMM, YYYY")
-            primaryImage {
-              childImageSharp {
-                resize(width:600,height:900) {
-                  src
-                }
-              }
-            }
-            slug
-          }
-          excerpt
-        }
+  query HomeQuery {
+    site {
+      siteMetadata {
+        title
       }
     }
   }

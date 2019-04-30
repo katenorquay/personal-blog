@@ -4,30 +4,35 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  margin-bottom: 6px;
   position: fixed;
   width:100%;
   height:85px;
-  background-color: #f4be29;
+  background-color:#ffffff;
+  z-index: 100;
 }
 
 .navButtons {
   display: flex;
   justify-content: center;
-  width: 15%;
 }
 
 .navButton {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 1rem;
-  height:75px;
+  width:100px;
+  border-radius: 100px;
+  cursor:pointer;
 }
 
 .navIcon {
-  width: 35px;
+  width: 45px;
   margin: 10px;
+}
+
+.homeIcon {
+  width: 50px;
+  margin-bottom:0;
 }
 
 .navText {
@@ -36,4 +41,16 @@
   letter-spacing: 1px;
   color: black;
   margin: 0
+}
+
+.designActive {
+  border: solid 3px #ff0000;
+}
+
+.codeActive {
+  border: solid 3px #0099ff;;
+}
+
+.writingActive {
+  border: solid 3px #FFD800;
 }
