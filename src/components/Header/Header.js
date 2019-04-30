@@ -10,7 +10,7 @@ import GraphicDesignIcon from '../../assets/paint-icon.png'
 import WritingIcon from '../../assets/writing-icon.png'
 import MarketingIcon from '../../assets/brain-icon.png'
 
-const Header = (props) => {
+const Header = () => {
   return (
     <div className={styles.header}>
     <Link to="/">

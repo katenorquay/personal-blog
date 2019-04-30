@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 
 import BlogGrid from '../components/BlogGrid'
+import ReviewGrid from '../components/ReviewGrid'
 import Layout from '../components/Layout'
 
 //Styles
@@ -26,9 +27,9 @@ class WritingPage extends Component {
     }
   }
 
-  clickHandler = (checked) => {
-    var event = new Event('change');
-    this.inputRef.dispatchEvent(event);
+  clickHandler = (pageValue, inputValue) => {
+    this.setState({page: pageValue})
+    this.inputRef.current.checked = inputValue
   }
 
   render() {
@@ -42,20 +43,20 @@ class WritingPage extends Component {
             <div className={styles.textContainer}>
               <h1>Writing</h1>
               <p>
-                My name's Kate. I'm a software engineer with a passion for reading, hot chips and colourful clothes and personal development.
-                Since I was 21 I've been struggling with depression.
               </p>
               <div className={styles.sliderContainer}>
-                <p>Blog</p>
+                <p onClick={() => { this.clickHandler('blog', false)}}>Blog</p>
                 <label className={styles.switch}>
                   <input type="checkbox" onChange={this.changeHandler} ref={this.inputRef}/>
                   <span className={styles.slider}></span>
                 </label>
-                <p>Reviews</p>
+                <p onClick={() => { this.clickHandler('review', true)}}>Reviews</p>
               </div>
             </div>
           </div>
-          <BlogGrid data={items}/>
+          {
+            page === 'blog' ? <BlogGrid data={items}/> : <ReviewGrid data={items}/>
+          }
         </div>
       </Layout>
     )
