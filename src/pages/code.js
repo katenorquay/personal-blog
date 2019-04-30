@@ -2,6 +2,7 @@
 import React from 'react'
 
 import Layout from '../components/Layout'
+import CodeGrid from '../components/CodeGrid'
 
 //Styles
 import styles from './styles.module.scss'
@@ -13,6 +14,7 @@ const CodePage = ({data}) => (
         <h1>Code</h1>
       </div>
     </div>
+    <CodeGrid data={data}/>
   </Layout>
 )
 
@@ -23,6 +25,28 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+      }
+    },
+    allMarkdownRemark (
+      filter: { fileAbsolutePath: {regex : "\/code/"} }
+    ) {
+      totalCount
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            description
+            slug
+            primaryImage {
+              childImageSharp {
+                resize(width:600,height:900) {
+                  src
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
