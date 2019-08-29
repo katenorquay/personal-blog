@@ -17,11 +17,10 @@ class Layout extends React.Component {
             { name: 'keywords', content: 'sample, something' },
           ]}
         />
-        <Header siteTitle={data.site.siteMetadata.title} />
+        {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <div className={styles.page}>
           {children}
         </div>
-        <Footer/>
       </div>
     )
   }

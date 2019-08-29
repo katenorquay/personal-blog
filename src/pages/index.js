@@ -2,32 +2,38 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import kate from '../assets/kate.jpg'
+import Link from 'gatsby-link'
 import styles from './styles.module.scss'
-
 
 const HomePage = ({data}) => {
   return (
     <Layout data={data}>
-
-      <div className={styles.aboutSection}>
-        <div className={styles.imageContainer}>
-          <img src={kate}></img>
-        </div>
-        <div className={styles.aboutTextContainer}>
-          <h2>Hi! I'm Kate Norquay.</h2>
-          <p>
-            I'm a software developer living in Wellington.
-            I love coffee, hot chips, Javascript and frontend development. 
-          </p>
-          <p>
-          This year I am taking courses in Facebook Marketing and Graphic Design and am excited to learn more in these areas.
-          </p>
-          <p>
-          I'm interested in mental health and personal development, and enjoy recording my learnings on my blog.
-            I'm committed to courage, kindness and discipline and hope to inspire a sense of self love and belonging in others.
-          </p>
-        </div>
+      <div className={styles.fullBleedBanner}></div>
+      <div className={styles.projectContainer}>
+        <Link to={'/eight'} className={styles.projectBlock}>
+          <div className={styles.imageBlock}></div>
+          <p className={styles.projectTitle}>Eight</p>
+        </Link>
+        <Link to={'/racket'} className={styles.projectBlock}>
+          <div className={styles.imageBlock}></div>
+          <p className={styles.projectTitle}>Racket</p>
+        </Link>
+        <Link to={'/brewbros'} className={styles.projectBlock}>
+          <div className={styles.imageBlock}></div>
+          <p className={styles.projectTitle}>Brew Bros</p>
+        </Link>
+        <Link to={'/tlab'} className={styles.projectBlock}>
+          <div className={styles.imageBlock}></div>
+          <p className={styles.projectTitle}>T-LAB</p>
+        </Link>
+        <Link to={'/campaign'} className={styles.projectBlock}>
+          <div className={styles.imageBlock}></div>
+          <p className={styles.projectTitle}>Campaign</p>
+        </Link>
+        <Link to={'/airraven'} className={styles.projectBlock}>
+          <div className={styles.imageBlock}></div>
+          <p className={styles.projectTitle}>Air Raven</p>
+        </Link>
       </div>
     </Layout>
   )
