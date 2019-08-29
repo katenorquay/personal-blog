@@ -11,28 +11,22 @@ const HomePage = ({data}) => {
       <div className={styles.fullBleedBanner}></div>
       <div className={styles.projectContainer}>
         <Link to={'/eight'} className={styles.projectBlock}>
-          <div className={styles.imageBlock}></div>
-          <p className={styles.projectTitle}>Eight</p>
+          Eight
         </Link>
         <Link to={'/racket'} className={styles.projectBlock}>
-          <div className={styles.imageBlock}></div>
-          <p className={styles.projectTitle}>Racket</p>
+          Racket
         </Link>
         <Link to={'/brewbros'} className={styles.projectBlock}>
-          <div className={styles.imageBlock}></div>
-          <p className={styles.projectTitle}>Brew Bros</p>
+          Brew Bros
         </Link>
         <Link to={'/tlab'} className={styles.projectBlock}>
-          <div className={styles.imageBlock}></div>
-          <p className={styles.projectTitle}>T-LAB</p>
+          T-LAB
         </Link>
         <Link to={'/campaign'} className={styles.projectBlock}>
-          <div className={styles.imageBlock}></div>
-          <p className={styles.projectTitle}>Campaign</p>
+          Campaign
         </Link>
         <Link to={'/airraven'} className={styles.projectBlock}>
-          <div className={styles.imageBlock}></div>
-          <p className={styles.projectTitle}>Air Raven</p>
+          Air Raven
         </Link>
       </div>
     </Layout>
