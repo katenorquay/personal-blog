@@ -1,28 +1,68 @@
 .fullBleedBanner {
   width:100%;
   background-color: black;
-  height:100vh;
   margin:0;
   padding:0;
 }
 
 .projectContainer {
   width: 100%;
-  height:750px;
+  height:250px;
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;  
 }
 
-.projectBlock {
-  width:30%;
-  margin-top:50px;
+.projectBlockEight {
+  width:23%;
+  background-color: #84bacf;
+  color: #ffffff;
+  font-size:20px;
+  font-weight:bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:5px;
 }
 
-.imageBlock {
-  background-color: red;
-  height:100%;
-  width:100%;
+.projectBlockCampaign {
+  width:23%;
+  margin:5px;
+  background-color: #e46748;
+  color: #ffffff;
+  font-size:20px;
+  font-weight:bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectBlockRacket {
+  width:23%;
+  margin:5px;
+  background-color: #ccb7c7;
+  color: #ffffff;
+  font-size:20px;
+  font-weight:bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectBlockAirRaven {
+  width:23%;
+  margin:5px;
+  background-color: #0F1625;
+  color: #ffffff;
+  font-size:20px;
+  font-weight:bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .projectTitle {
@@ -37,6 +77,11 @@
 
 .projectList {
   text-align: center;
+}
+
+.introBanner {
+  width:100%;
+  height:100vh;
 }
 
 html {

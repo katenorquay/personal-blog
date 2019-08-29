@@ -5,27 +5,23 @@ import Layout from '../components/Layout'
 import Link from 'gatsby-link'
 import styles from './styles.module.scss'
 
+import intro from '../assets/intro.png'
+
 const HomePage = ({data}) => {
   return (
     <Layout data={data}>
-      <div className={styles.fullBleedBanner}></div>
+      <img className={styles.introBanner} src={intro}></img>
       <div className={styles.projectContainer}>
-        <Link to={'/eight'} className={styles.projectBlock}>
+        <Link to={'/eight'} className={styles.projectBlockEight}>
           Eight
         </Link>
-        <Link to={'/racket'} className={styles.projectBlock}>
+        <Link to={'/racket'} className={styles.projectBlockRacket}>
           Racket
         </Link>
-        <Link to={'/brewbros'} className={styles.projectBlock}>
-          Brew Bros
-        </Link>
-        <Link to={'/tlab'} className={styles.projectBlock}>
-          T-LAB
-        </Link>
-        <Link to={'/campaign'} className={styles.projectBlock}>
+        <Link to={'/campaign'} className={styles.projectBlockCampaign}>
           Campaign
         </Link>
-        <Link to={'/airraven'} className={styles.projectBlock}>
+        <Link to={'/airraven'} className={styles.projectBlockAirRaven}>
           Air Raven
         </Link>
       </div>

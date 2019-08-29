@@ -36,7 +36,7 @@ export const query = graphql`
       }
     },
     allMarkdownRemark (
-      filter: { fileAbsolutePath: {regex : "\/racket/"} }
+      filter: { fileAbsolutePath: {regex : "\/campaign/"} }
     ) {
       totalCount
       edges {
