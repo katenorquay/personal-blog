@@ -10,7 +10,7 @@ const BrewBrosPage = ({data}) => (
   <Layout data={data}>
     <div className={styles.codeBanner}>
       <div className={styles.textContainer}>
-        <h1>Code</h1>
+        <h1>brew bros</h1>
       </div>
     </div>
   </Layout>
