@@ -6,11 +6,12 @@
 }
 
 .projectContainer {
-  width: 100%;
+  width:100%;
   height:250px;
   display:flex;
   justify-content: space-between;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
+  padding:20px;  
 }
 
 .projectBlockEight {
@@ -23,12 +24,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin:5px;
 }
 
 .projectBlockCampaign {
   width:23%;
-  margin:5px;
   background-color: #e46748;
   color: #ffffff;
   font-size:20px;
@@ -41,7 +40,6 @@
 
 .projectBlockRacket {
   width:23%;
-  margin:5px;
   background-color: #ccb7c7;
   color: #ffffff;
   font-size:20px;
@@ -54,7 +52,6 @@
 
 .projectBlockAirRaven {
   width:23%;
-  margin:5px;
   background-color: #0F1625;
   color: #ffffff;
   font-size:20px;
@@ -77,6 +74,10 @@
 
 .projectList {
   text-align: center;
+}
+
+.listItem {
+  list-style: none;
 }
 
 .introBanner {
@@ -322,6 +323,28 @@ p {
   margin-bottom: 1.45rem;
   color: #14251c;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .introBanner {
+    height:300px;
+  }
+  .projectBlockEight {
+    font-size: 15px;
+    width:50%;
+  }
+  .projectBlockAirRaven {
+    font-size: 15px;
+    width:50%;
+  }
+  .projectBlockCampaign {
+    font-size: 15px;
+    width:50%;
+  }
+  .projectBlockRacket {
+    font-size: 15px;
+    width:50%;
+  }
 }
 
 @media only screen and (max-width: 850px) {
