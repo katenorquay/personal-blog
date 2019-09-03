@@ -10,21 +10,31 @@ import intro from '../assets/intro.png'
 const HomePage = ({data}) => {
   return (
     <Layout data={data}>
-      <img className={styles.introBanner} src={intro}></img>
+      <div className={styles.introBanner}>
+        Kate Norquay
+      </div>
+      <div className={styles.sectionTitle}>Projects</div>
       <div className={styles.projectContainer}>
-        <Link to={'/eight'} className={styles.projectBlockEight}>
+        <Link to={'/eight'} className={styles.projectBlock}>
           Eight
         </Link>
-        <Link to={'/racket'} className={styles.projectBlockRacket}>
+        <Link to={'/racket'} className={styles.projectBlock}>
           Racket
         </Link>
-        <Link to={'/campaign'} className={styles.projectBlockCampaign}>
+        <Link to={'/brewbros'} className={styles.projectBlock}>
+          Brew Bros
+        </Link>
+        <Link to={'/tlab'} className={styles.projectBlock}>
+          TLAB
+        </Link>
+        <Link to={'/campaign'} className={styles.projectBlock}>
           Campaign
         </Link>
-        <Link to={'/airraven'} className={styles.projectBlockAirRaven}>
+        <Link to={'/airraven'} className={styles.projectBlock}>
           Air Raven
         </Link>
       </div>
+      <div className={styles.sectionTitle}>Get in touch</div>
     </Layout>
   )
 }

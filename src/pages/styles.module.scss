@@ -7,60 +7,26 @@
 
 .projectContainer {
   width:100%;
-  height:250px;
-  display:flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding:20px;  
+  display: flex;
+  flex-direction: column; 
 }
 
-.projectBlockEight {
-  width:23%;
-  background-color: #84bacf;
-  color: #ffffff;
-  font-size:20px;
-  font-weight:bold;
-  text-transform: uppercase;
+.sectionTitle {
+  border: solid 5px #D510AE;
+  color: #D510AE;
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
 }
 
-.projectBlockCampaign {
-  width:23%;
-  background-color: #e46748;
+.projectBlock {
+  width: 100%;
+  border: solid 5px #D510AE;
   color: #ffffff;
-  font-size:20px;
-  font-weight:bold;
-  text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.projectBlockRacket {
-  width:23%;
-  background-color: #ccb7c7;
-  color: #ffffff;
-  font-size:20px;
-  font-weight:bold;
-  text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.projectBlockAirRaven {
-  width:23%;
-  background-color: #0F1625;
-  color: #ffffff;
-  font-size:20px;
-  font-weight:bold;
-  text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .projectTitle {
   margin-top: 10px;
@@ -83,6 +49,11 @@
 .introBanner {
   width:100%;
   height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #D510AE;
+  font-size: 60px;
 }
 
 html {
@@ -92,6 +63,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: #FF6C2D;
 }
 a {
   background-color: transparent;

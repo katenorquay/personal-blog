@@ -13,9 +13,7 @@ import WritingIcon from '../../assets/writing-icon.png'
 const Header = () => {
   return (
     <div className={styles.header}>
-    <Link to="/">
-      <img className={styles.homeIcon} src={HomeIcon}></img>
-    </Link>
+    <Link to="/">Menu</Link>
   </div>
   )
 }

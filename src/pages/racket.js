@@ -57,10 +57,3 @@ export const query = graphql`
     }
   }
 `
-
-
-// <img src={node.frontmatter.primaryImage.childImageSharp.resize.src}></img>
-// <img src={racket2}></img>
-// <img src={racket3}></img>
-// <img src={racket4}></img>
-// <img src={racket5}></img>
