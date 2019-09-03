@@ -1,5 +1,5 @@
 ---
-link: '/racket'
+slug: '/racket'
 title: 'Racket'
 imageOne: './racket1.png'
 imageTwo: './racket2.png'

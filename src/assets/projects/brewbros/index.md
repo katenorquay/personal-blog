@@ -1,5 +1,5 @@
 ---
-link: '/brewbros'
+slug: '/brewbros'
 title: 'Brew Bros'
 imageOne: './airraven1.png'
 imageTwo: './airraven2.png'

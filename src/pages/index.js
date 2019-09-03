@@ -2,6 +2,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import ProjectLink from '../components/ProjectLink'
 import Link from 'gatsby-link'
 import styles from './styles.module.scss'
 
@@ -15,24 +16,9 @@ const HomePage = ({data}) => {
       </div>
       <div className={styles.sectionTitle}>Projects</div>
       <div className={styles.projectContainer}>
-        <Link to={'/eight'} className={styles.projectBlock}>
-          Eight
-        </Link>
-        <Link to={'/racket'} className={styles.projectBlock}>
-          Racket
-        </Link>
-        <Link to={'/brewbros'} className={styles.projectBlock}>
-          Brew Bros
-        </Link>
-        <Link to={'/tlab'} className={styles.projectBlock}>
-          TLAB
-        </Link>
-        <Link to={'/campaign'} className={styles.projectBlock}>
-          Campaign
-        </Link>
-        <Link to={'/airraven'} className={styles.projectBlock}>
-          Air Raven
-        </Link>
+        {data.allMarkdownRemark.edges.map(({ node }) => {
+          return <ProjectLink title={node.frontmatter.title} slug={node.frontmatter.slug}/>
+        }
       </div>
       <div className={styles.sectionTitle}>Get in touch</div>
     </Layout>
@@ -42,11 +28,32 @@ const HomePage = ({data}) => {
 export default HomePage
 
 export const query = graphql`
-  query HomeQuery {
+  query ProjectQuery {
     site {
       siteMetadata {
         title
       }
+    },
+    allMarkdownRemark (
+      filter: { fileAbsolutePath: {regex : "\/projects/"} }
+    ) {
+      totalCount
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            slug
+            primaryImage {
+              childImageSharp {
+                resize(width:1000,height:500) {
+                  src
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
-`;
+`

@@ -1,5 +1,5 @@
 ---
-link: '/campaign'
+slug: '/campaign'
 title: 'Campaign'
 imageOne: './campaign1.png'
 imageTwo: './campaign2.png'

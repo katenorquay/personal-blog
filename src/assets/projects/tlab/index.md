@@ -1,5 +1,5 @@
 ---
-link: '/tlab'
+slug: '/tlab'
 title: 'TLAB'
 imageOne: './airraven1.png'
 imageTwo: './airraven2.png'

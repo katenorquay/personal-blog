@@ -1,5 +1,5 @@
 ---
-link: '/airraven'
+slug: '/airraven'
 title: 'Air Raven'
 imageOne: './airraven1.png'
 imageTwo: './airraven2.png'
