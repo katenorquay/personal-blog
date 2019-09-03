@@ -21,6 +21,7 @@ class Layout extends React.Component {
         <div className={styles.page}>
           {children}
         </div>
+        <Footer/>
       </div>
     )
   }
