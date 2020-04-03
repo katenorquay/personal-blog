@@ -3,19 +3,16 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import ProjectLink from '../components/ProjectLink'
-import Link from 'gatsby-link'
+import IntroBanner from '../components/IntroBanner'
 import styles from './styles.module.scss'
 
 
 const HomePage = ({data}) => {
   return (
     <Layout data={data}>
-      <div className={styles.introBanner}>
-        <div className={styles.introInner}>
-          <h1>Kate Norquay Main description, bakshh dhfjf jdjd</h1>
-          <button className={styles.btnPrimary}>Contact Me</button>
-        </div>
-      </div>
+      <IntroBanner title={'Kate Norquay Main description, bakshh dhfjf jdjd'}>
+        <button className={styles.btnPrimary}>Contact Me</button>
+      </IntroBanner>
       <div className={styles.projectContainer}>
         {data.allMarkdownRemark.edges.map(({ node }) => {
           return <ProjectLink title={node.frontmatter.title} link={node.frontmatter.slug} image={node.frontmatter.primaryImage}/>
