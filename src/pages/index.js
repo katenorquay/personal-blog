@@ -6,21 +6,18 @@ import ProjectLink from '../components/ProjectLink'
 import Link from 'gatsby-link'
 import styles from './styles.module.scss'
 
-import intro from '../assets/intro.png'
 
 const HomePage = ({data}) => {
   return (
     <Layout data={data}>
       <div className={styles.introBanner}>
-        Kate Norquay
+        Kate Norquay Main description, bakshh dhfjf jdjd
       </div>
-      <div className={styles.sectionTitle}>Projects</div>
       <div className={styles.projectContainer}>
         {data.allMarkdownRemark.edges.map(({ node }) => {
-          return <ProjectLink title={node.frontmatter.title} link={node.frontmatter.slug}/>
+          return <ProjectLink title={node.frontmatter.title} link={node.frontmatter.slug} image={node.frontmatter.primaryImage}/>
         })}
       </div>
-      <div className={styles.sectionTitle}>Get in touch</div>
     </Layout>
   )
 }
