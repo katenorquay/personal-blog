@@ -17,8 +17,8 @@ const HomePage = ({data}) => {
       <div className={styles.sectionTitle}>Projects</div>
       <div className={styles.projectContainer}>
         {data.allMarkdownRemark.edges.map(({ node }) => {
-          return <ProjectLink title={node.frontmatter.title} slug={node.frontmatter.slug}/>
-        }
+          return <ProjectLink title={node.frontmatter.title} link={node.frontmatter.slug}/>
+        })}
       </div>
       <div className={styles.sectionTitle}>Get in touch</div>
     </Layout>
