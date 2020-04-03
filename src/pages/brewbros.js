@@ -1,18 +1,21 @@
-//Core Dependencies
 import React from 'react'
-
 import Layout from '../components/Layout'
-
-//Styles
-import styles from './styles.module.scss'
+import IntroBanner from '../components/IntroBanner'
+import FullWidthBanner from '../components/FullWidthBanner'
+import HalfWidthBanner from '../components/HalfWidthBanner'
+import introImage from '../assets/intro.png'
 
 const BrewBrosPage = ({data}) => (
   <Layout data={data}>
-    <div className={styles.codeBanner}>
-      <div className={styles.textContainer}>
-        <h1>brew bros</h1>
-      </div>
-    </div>
+    <IntroBanner
+      title='Brew Bros'
+      description='UX and UI design for a brewing company which teaches people to make their own homebrew through workshops and tours.'>
+    </IntroBanner>
+    <HalfWidthBanner source={introImage} source2={introImage}></HalfWidthBanner>
+    <FullWidthBanner source={introImage}></FullWidthBanner>
+    <FullWidthBanner source={introImage}></FullWidthBanner>
+    <FullWidthBanner source={introImage}></FullWidthBanner>
+    <FullWidthBanner source={introImage}></FullWidthBanner>
   </Layout>
 )
 

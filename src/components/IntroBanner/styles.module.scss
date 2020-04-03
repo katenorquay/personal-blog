@@ -1,16 +1,3 @@
-h1 {
-  font-size: 40px;
-  color: #17FFF5;
-  font-family: 'Merriweather';
-}
-
-p {
-  font-family: 'Open Sans';
-  font-size: 25px;
-  font-weight: bold;
-  color: #FFFFFF;
-}
-
 .introBanner {
   width:100%;
   height:75vh;
@@ -18,6 +5,19 @@ p {
   justify-content: center;
   align-items: center;
   background-color: #111D4A;
+
+  h1 {
+    font-size: 40px;
+    color: #17FFF5;
+    font-family: 'Merriweather';
+  }
+
+  p {
+    font-family: 'Open Sans';
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
 }
 
 .introInner {

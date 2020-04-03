@@ -1,18 +1,19 @@
-//Core Dependencies
 import React from 'react'
-
 import Layout from '../components/Layout'
-
-//Styles
-import styles from './styles.module.scss'
+import IntroBanner from '../components/IntroBanner'
+import FullWidthBanner from '../components/FullWidthBanner'
+import introImage from '../assets/intro.png'
 
 const TLABPage = ({data}) => (
   <Layout data={data}>
-    <div className={styles.codeBanner}>
-      <div className={styles.textContainer}>
-        <h1>TLAB</h1>
-      </div>
-    </div>
+    <IntroBanner
+      title='TLAB'
+      description='Annual report microsite to showcase
+      the achievements of T-LAB - a
+      groundbreaking technology company.'>
+    </IntroBanner>
+    <FullWidthBanner source={introImage}></FullWidthBanner>
+    <FullWidthBanner source={introImage}></FullWidthBanner>
   </Layout>
 )
 
