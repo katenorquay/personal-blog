@@ -6,7 +6,7 @@ import styles from './styles.module.scss'
 
 const Footer = ({ siteTitle }) => (
   <div className={styles.footer}>
-    <p className={styles.footerText}>© Kate Norquay 2018</p>
+    <p className={styles.footerText}>© Kate Norquay 2020</p>
   </div>
 )
 

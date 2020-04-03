@@ -11,7 +11,7 @@ const ProjectLink = ({ link, title, image }) => (
     <img src={intro}></img>
     <div className={styles.projectText}>
       <p className={styles.title}>{title}</p>
-      <p>description description description</p>
+      <p className={styles.description}>description description description</p>
     </div>
     <div className={styles.projectLine}></div>
   </Link>

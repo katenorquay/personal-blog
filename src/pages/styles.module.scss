@@ -1,5 +1,38 @@
-body {
-  margin: 0
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+  color: #17FFF5;
+  font-family: 'Merriweather';
+}
+
+.introBanner {
+  width:100%;
+  height:75vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111D4A;
+}
+
+.introInner {
+  width: 75%;
+}
+
+.btnPrimary {
+  background-color: #FFE754;
+  color: #111D4A;
+  padding: 15px 25px;
+  border-radius: 3px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 .projectContainer {
@@ -12,46 +45,4 @@ body {
   margin-right: auto;
   margin-top: 50px;
   margin-bottom:50px;
-}
-
-.fullBleedBanner {
-  width:100%;
-  background-color: black;
-  margin:0;
-  padding:0;
-}
-
-.projectBlock {
-  width: 100%;
-  border: solid 5px #D510AE;
-  color: #ffffff;
-}
-
-
-.projectTitle {
-  margin-top: 10px;
-  margin-left:10px;
-}
-
-.projectImage {
-  margin: 0;
-  width:100%;
-}
-
-.projectList {
-  text-align: center;
-}
-
-.listItem {
-  list-style: none;
-}
-
-.introBanner {
-  width:100%;
-  height:100vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #111D4A;
-  font-size: 60px;
 }

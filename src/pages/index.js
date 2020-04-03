@@ -11,7 +11,10 @@ const HomePage = ({data}) => {
   return (
     <Layout data={data}>
       <div className={styles.introBanner}>
-        Kate Norquay Main description, bakshh dhfjf jdjd
+        <div className={styles.introInner}>
+          <h1>Kate Norquay Main description, bakshh dhfjf jdjd</h1>
+          <button className={styles.btnPrimary}>Contact Me</button>
+        </div>
       </div>
       <div className={styles.projectContainer}>
         {data.allMarkdownRemark.edges.map(({ node }) => {

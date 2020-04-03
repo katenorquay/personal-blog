@@ -15,8 +15,15 @@
   }
 
   .title {
-    font-size: 'open sans';
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 10px;
     text-transform: uppercase;
+  }
+
+  .description {
+    font-family: 'Merriweather';
+    font-size: 15px;
   }
 
   .projectLine {
