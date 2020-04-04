@@ -3,27 +3,26 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   background-color: #ffffff;
-  border: solid 1px #979797;
+  border: solid 1px #DADADA;
   margin: 25px 0;
   text-decoration: none;
 
   .projectText {
-    padding: 30px 15px;
     color: #191847;
+    padding: 20px;
   }
 
   .title {
     font-family: 'Open Sans';
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
     text-transform: uppercase;
   }
 
   .description {
     font-family: 'Merriweather';
-    font-size: 15px;
+    font-size: 25px;
   }
 
   .projectLine {

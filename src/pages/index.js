@@ -10,7 +10,7 @@ import styles from './styles.module.scss'
 const HomePage = ({data}) => {
   return (
     <Layout data={data}>
-      <IntroBanner title={'Kate Norquay Main description, bakshh dhfjf jdjd'}>
+      <IntroBanner title={'Kate Norquay Main description, bakshh dhfjf jdjd fhh sjhf hjd'}>
         <button className={styles.btnPrimary}>Contact Me</button>
       </IntroBanner>
       <div className={styles.projectContainer}>
