@@ -4,7 +4,12 @@ import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
 import HalfWidthBanner from '../components/HalfWidthBanner'
-import introImage from '../assets/intro.png'
+
+import processOne from '../assets/projects/racket/processOne.jpg'
+import processTwo from '../assets/projects/racket/processTwo.jpg'
+import cover from '../assets/projects/racket/cover.jpg'
+import spreadOne from '../assets/projects/racket/spreadOne.jpg'
+import spreadTwo from '../assets/projects/racket/spreadTwo.jpg'
 
 const RacketPage = ({data}) => (
   <Layout data={data}>
@@ -13,10 +18,10 @@ const RacketPage = ({data}) => (
       description='Cover and article for first issue of a
       new music magazine.'>
     </IntroBanner>
-    <HalfWidthBanner source={introImage} source2={introImage}></HalfWidthBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
+    <HalfWidthBanner source={processOne} source2={processTwo}></HalfWidthBanner>
+    <FullWidthBanner source={cover}></FullWidthBanner>
+    <FullWidthBanner source={spreadOne}></FullWidthBanner>
+    <FullWidthBanner source={spreadTwo}></FullWidthBanner>
   </Layout>
 )
 

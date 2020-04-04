@@ -1,9 +1,10 @@
 .flexContainer {
   display:flex;
+  justify-content: space-between;
   width: 90%;
   margin: 25px auto;
 }
 
 .halfWidthBanner {
-  width: 50%;
+  width: 48%;
 }

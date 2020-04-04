@@ -5,6 +5,8 @@ import FullWidthBanner from '../components/FullWidthBanner'
 import HalfWidthBanner from '../components/HalfWidthBanner'
 import introImage from '../assets/intro.png'
 
+import eightSign from '../assets/projects/eight/eight-sign.jpg'
+
 const EightPage = ({data}) => (
   <Layout data={data}>
     <IntroBanner
