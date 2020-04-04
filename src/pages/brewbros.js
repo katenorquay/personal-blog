@@ -11,7 +11,10 @@ const BrewBrosPage = ({data}) => (
       title='Brew Bros'
       description='UX and UI design for a brewing company which teaches people to make their own homebrew through workshops and tours.'>
     </IntroBanner>
-    <HalfWidthBanner source={introImage} source2={introImage}></HalfWidthBanner>
+    <HalfWidthBanner>
+      <img className={styles.halfWidthBanner} src={processOne}></img>
+      <img className={styles.halfWidthBanner} src={processTwo}></img>
+    </HalfWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>

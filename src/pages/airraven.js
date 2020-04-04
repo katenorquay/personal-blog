@@ -14,7 +14,10 @@ const AirRavenPage = ({data}) => (
     <FullWidthBanner source={introImage}></FullWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>
-    <HalfWidthBanner source={introImage} source2={introImage}></HalfWidthBanner>
+    <HalfWidthBanner>
+      <img className={styles.halfWidthBanner} src={processOne}></img>
+      <img className={styles.halfWidthBanner} src={processTwo}></img>
+    </HalfWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>
   </Layout>
 )

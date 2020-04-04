@@ -1,11 +1,10 @@
 import React from 'react'
 import styles from './styles.module.scss'
 
-const HalfWidthBanner = ({source, source2}) => {
+const HalfWidthBanner = ({children}) => {
   return (
     <div className={styles.flexContainer}>
-      <img className={styles.halfWidthBanner} src={source}></img>
-      <img className={styles.halfWidthBanner} src={source2}></img>
+      {children}
     </div>
   )
 }
