@@ -3,8 +3,11 @@ import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
 import HalfWidthBanner from '../components/HalfWidthBanner'
+import SlidingBanner from '../components/SlidingBanner'
 import introImage from '../assets/intro.png'
 import logo from '../assets/projects/brewbros/logo.jpg'
+import appScreensOne from '../assets/projects/brewbros/appScreensOne.jpg'
+import appScreensTwo from '../assets/projects/brewbros/appScreensTwo.jpg'
 
 import styles from './styles.module.scss'
 
@@ -21,7 +24,10 @@ const BrewBrosPage = ({data}) => (
     <FullWidthBanner source={introImage}></FullWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
+    <SlidingBanner>
+      <img src={appScreensOne}></img>
+      <img src={appScreensTwo}></img>
+    </SlidingBanner>
   </Layout>
 )
 
