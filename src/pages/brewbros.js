@@ -4,6 +4,9 @@ import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
 import HalfWidthBanner from '../components/HalfWidthBanner'
 import introImage from '../assets/intro.png'
+import logo from '../assets/projects/brewbros/logo.jpg'
+
+import styles from './styles.module.scss'
 
 const BrewBrosPage = ({data}) => (
   <Layout data={data}>
@@ -12,8 +15,8 @@ const BrewBrosPage = ({data}) => (
       description='UX and UI design for a brewing company which teaches people to make their own homebrew through workshops and tours.'>
     </IntroBanner>
     <HalfWidthBanner>
-      <img className={styles.halfWidthBanner} src={processOne}></img>
-      <img className={styles.halfWidthBanner} src={processTwo}></img>
+      <h1>Description of the UX and UI</h1>
+      <img className={styles.halfWidthBanner} src={logo}></img>
     </HalfWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>
