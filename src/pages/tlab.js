@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
 import introImage from '../assets/intro.png'
+import styleTile from '../assets/projects/tlab/styleTile.jpg'
 
 const TLABPage = ({data}) => (
   <Layout data={data}>
@@ -12,8 +13,8 @@ const TLABPage = ({data}) => (
       the achievements of T-LAB - a
       groundbreaking technology company.'>
     </IntroBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
+    <FullWidthBanner source={styleTile}></FullWidthBanner>
+    <iframe src="/website.html" width="1000" height="1000" id='iframe'></iframe>
   </Layout>
 )
 
