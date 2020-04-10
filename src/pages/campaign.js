@@ -5,7 +5,6 @@ import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
 import HalfWidthBanner from '../components/HalfWidthBanner'
 import SlidingBanner from '../components/SlidingBanner'
-import introImage from '../assets/intro.png'
 
 import postcardSideOne from '../assets/projects/campaign/postcardSideOne.jpg'
 import postcardSideTwo from '../assets/projects/campaign/postcardSideTwo.jpg'
@@ -26,7 +25,6 @@ const CampaignPage = ({data}) => (
       <img className={styles.halfWidthBanner} src={postcardSideTwo}></img>
     </HalfWidthBanner>
     <FullWidthBanner source={frankyMagazine}></FullWidthBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
     <SlidingBanner>
       <img src={appScreensOne}></img>
       <img src={appScreensTwo}></img>
