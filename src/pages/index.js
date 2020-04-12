@@ -6,6 +6,13 @@ import ProjectLink from '../components/ProjectLink'
 import IntroBanner from '../components/IntroBanner'
 import styles from './styles.module.scss'
 
+import airRavenLogo from '../assets/projects/airraven/logo.jpg'
+import brewBrosLogo from '../assets/projects/brewbros/logo.jpg'
+import eightLogo from '../assets/projects/eight/eightSign.jpg'
+import tlabWebsite from '../assets/projects/tlab/websiteOne.png'
+import racketSpread from '../assets/projects/racket/spreadOne.jpg'
+import campaignPostcard from '../assets/projects/campaign/postcardSideOne.jpg'
+
 
 const HomePage = ({data}) => {
   return (
@@ -14,9 +21,42 @@ const HomePage = ({data}) => {
         <button className={styles.btnPrimary}>Contact Me</button>
       </IntroBanner>
       <div className={styles.projectContainer}>
-        {data.allMarkdownRemark.edges.map(({ node }) => {
-          return <ProjectLink title={node.frontmatter.title} link={node.frontmatter.slug} image={node.frontmatter.primaryImage}/>
-        })}
+        <ProjectLink
+          title='Air Raven'
+          link='/airraven'
+          description='Branding for a Norwegian Airline.'
+          image={airRavenLogo}
+        />
+        <ProjectLink
+          title='Brew Bros'
+          link='/brewbros'
+          description='UX and UI design for a brewing company which teaches people to make their own homebrew through workshops and tours.'
+          image={brewBrosLogo}
+        />
+        <ProjectLink
+          title='Campaign'
+          link='/campaign'
+          description='Australian Flower Council online popup store selling personalised flower bouquets.'
+          image={campaignPostcard}
+        />
+        <ProjectLink
+          title='Eight'
+          link='/eight'
+          description='Branding for a nap pod rental store for high achieving Wall Street Professionals.'
+          image={eightLogo}
+        />
+        <ProjectLink
+          title='TLAB'
+          link='/tlab'
+          description='Annual report microsite to showcase the achievements of T-LAB - a groundbreaking technology company.'
+          image={tlabWebsite}
+        />
+        <ProjectLink
+          title='Racket'
+          link='/racket'
+          description='Cover and article for first issue of a new music magazine.'
+          image={racketSpread}
+        />
       </div>
     </Layout>
   )
@@ -29,27 +69,6 @@ export const query = graphql`
     site {
       siteMetadata {
         title
-      }
-    },
-    allMarkdownRemark (
-      filter: { fileAbsolutePath: {regex : "\/projects/"} }
-    ) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            slug
-            primaryImage {
-              childImageSharp {
-                resize(width:1000,height:500) {
-                  src
-                }
-              }
-            }
-          }
-        }
       }
     }
   }
