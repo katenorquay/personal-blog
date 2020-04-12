@@ -7,6 +7,7 @@ import introImage from '../assets/intro.png'
 
 import eightSign from '../assets/projects/eight/eightSign.jpg'
 import poster from '../assets/projects/eight/poster.jpg'
+import styletile from '../assets/projects/eight/styletile.jpg'
 
 import styles from './styles.module.scss'
 
@@ -20,7 +21,7 @@ const EightPage = ({data}) => (
       <h1>Eight hours sleep, infinite productivity</h1>
       <img className={styles.halfWidthBanner} src={eightSign}></img>
     </HalfWidthBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
+    <FullWidthBanner source={styletile}></FullWidthBanner>
     <HalfWidthBanner>
       <img className={styles.halfWidthBanner} src={introImage}></img>
       <img className={styles.halfWidthBanner} src={introImage}></img>

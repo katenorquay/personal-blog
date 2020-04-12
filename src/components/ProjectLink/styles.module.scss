@@ -7,6 +7,7 @@
   border: solid 1px #DADADA;
   margin: 25px 0;
   text-decoration: none;
+  position: relative;
 
   .projectText {
     color: #191847;
@@ -22,16 +23,20 @@
 
   .description {
     font-family: 'Merriweather';
-    font-size: 20px;
+    font-size: 16px;
+    min-height: 100px;
   }
 
   .projectLine {
     background-color: #17FFF5;
     width: 100%;
     height: 10px;
+    position: absolute;
+    bottom: 0;
   }
 
   img {
     width: 100%;
+    height:200px;
   }
 }
