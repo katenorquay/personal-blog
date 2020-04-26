@@ -2,10 +2,10 @@ import React from 'react'
 import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
-import introImage from '../assets/intro.png'
 import logo from '../assets/projects/airraven/logo.jpg'
 import website from '../assets/projects/airraven/website.jpg'
 import plane from '../assets/projects/airraven/plane.png'
+import instagram from '../assets/projects/airraven/instagram.jpg'
 import poster from '../assets/projects/airraven/poster.png'
 
 const AirRavenPage = ({data}) => (
@@ -17,7 +17,7 @@ const AirRavenPage = ({data}) => (
     <FullWidthBanner source={logo}></FullWidthBanner>
     <FullWidthBanner source={poster}></FullWidthBanner>
     <FullWidthBanner source={plane}></FullWidthBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
+    <FullWidthBanner source={instagram}></FullWidthBanner>
     <FullWidthBanner source={website}></FullWidthBanner>
   </Layout>
 )

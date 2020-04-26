@@ -3,9 +3,9 @@ import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
 import HalfWidthBanner from '../components/HalfWidthBanner'
-import introImage from '../assets/intro.png'
 
 import eightSign from '../assets/projects/eight/eightSign.jpg'
+import instagram from '../assets/projects/eight/instagram.jpg'
 import poster from '../assets/projects/eight/poster.jpg'
 import styletile from '../assets/projects/eight/styletile.jpg'
 
@@ -22,11 +22,7 @@ const EightPage = ({data}) => (
       <img className={styles.halfWidthBanner} src={eightSign}></img>
     </HalfWidthBanner>
     <FullWidthBanner source={styletile}></FullWidthBanner>
-    <HalfWidthBanner>
-      <img className={styles.halfWidthBanner} src={introImage}></img>
-      <img className={styles.halfWidthBanner} src={introImage}></img>
-    </HalfWidthBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
+    <FullWidthBanner source={instagram}></FullWidthBanner>
     <FullWidthBanner source={poster}></FullWidthBanner>
   </Layout>
 )
