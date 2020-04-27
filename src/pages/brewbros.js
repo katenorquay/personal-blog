@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
@@ -25,8 +27,8 @@ const BrewBrosPage = ({data}) => (
     <FullWidthBanner source={introImage}></FullWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>
     <SlidingBanner>
-      <img src={appScreensOne}></img>
-      <img src={appScreensTwo}></img>
+      <img src={appScreensOne} alt='Brew Bros app screens one'></img>
+      <img src={appScreensTwo} alt='Brew Bros app screens two'></img>
     </SlidingBanner>
   </Layout>
 )

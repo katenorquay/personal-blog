@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
@@ -19,11 +21,11 @@ const EightPage = ({data}) => (
     </IntroBanner>
     <HalfWidthBanner>
       <h1>Eight hours sleep, infinite productivity</h1>
-      <img className={styles.halfWidthBanner} src={eightSign}></img>
+      <img className={styles.halfWidthBanner} src={eightSign} alt='sign with eight logo'></img>
     </HalfWidthBanner>
-    <FullWidthBanner source={styletile}></FullWidthBanner>
-    <FullWidthBanner source={instagram}></FullWidthBanner>
-    <FullWidthBanner source={poster}></FullWidthBanner>
+    <FullWidthBanner source={styletile} altText='eight style tile'></FullWidthBanner>
+    <FullWidthBanner source={instagram} altText='eight instagram images'></FullWidthBanner>
+    <FullWidthBanner source={poster} altText='eight poster series'></FullWidthBanner>
   </Layout>
 )
 

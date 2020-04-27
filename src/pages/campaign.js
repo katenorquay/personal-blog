@@ -1,5 +1,7 @@
 
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
@@ -8,7 +10,7 @@ import SlidingBanner from '../components/SlidingBanner'
 
 import postcardSideOne from '../assets/projects/campaign/postcardSideOne.jpg'
 import postcardSideTwo from '../assets/projects/campaign/postcardSideTwo.jpg'
-import frankyMagazine from '../assets/projects/campaign/frankyMagazine.jpg'
+import frankieMagazine from '../assets/projects/campaign/frankieMagazine.jpg'
 import appScreensOne from '../assets/projects/campaign/appScreensOne.jpg'
 import appScreensTwo from '../assets/projects/campaign/appScreensTwo.jpg'
 
@@ -21,13 +23,13 @@ const CampaignPage = ({data}) => (
       description='Australian Flower Council online popup store selling personalised flower bouquets.'>
     </IntroBanner>
     <HalfWidthBanner>
-      <img className={styles.halfWidthBanner} src={postcardSideOne}></img>
-      <img className={styles.halfWidthBanner} src={postcardSideTwo}></img>
+      <img className={styles.halfWidthBanner} src={postcardSideOne} alt='Campaign postcard side one'></img>
+      <img className={styles.halfWidthBanner} src={postcardSideTwo} alt='Campaign postcard side two'></img>
     </HalfWidthBanner>
-    <FullWidthBanner source={frankyMagazine}></FullWidthBanner>
+    <FullWidthBanner source={frankieMagazine} altText='Campaign postcard inside Frankie magazine'></FullWidthBanner>
     <SlidingBanner>
-      <img src={appScreensOne}></img>
-      <img src={appScreensTwo}></img>
+      <img src={appScreensOne} alt='Campaign app screens one'></img>
+      <img src={appScreensTwo} alt='Campaign app screens two'></img>
     </SlidingBanner>
   </Layout>
 )

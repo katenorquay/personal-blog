@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
@@ -14,11 +16,11 @@ const AirRavenPage = ({data}) => (
       title='Air Raven'
       description='Branding for a Norwegian Airline.'>
     </IntroBanner>
-    <FullWidthBanner source={logo}></FullWidthBanner>
-    <FullWidthBanner source={poster}></FullWidthBanner>
-    <FullWidthBanner source={plane}></FullWidthBanner>
-    <FullWidthBanner source={instagram}></FullWidthBanner>
-    <FullWidthBanner source={website}></FullWidthBanner>
+    <FullWidthBanner source={logo} altText='Air Raven logo'></FullWidthBanner>
+    <FullWidthBanner source={poster} altText='Air Raven poster in bus shelter'></FullWidthBanner>
+    <FullWidthBanner source={plane} altText='Air Raven plane'></FullWidthBanner>
+    <FullWidthBanner source={instagram} altText='Air Raven instagram'></FullWidthBanner>
+    <FullWidthBanner source={website} altText='Air Raven website'></FullWidthBanner>
   </Layout>
 )
 

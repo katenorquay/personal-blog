@@ -1,9 +1,9 @@
 //Core Dependencies
 import React from 'react'
 import { graphql } from 'gatsby'
+
 import Layout from '../components/Layout'
 import ProjectLink from '../components/ProjectLink'
-import IntroBanner from '../components/IntroBanner'
 import styles from './styles.module.scss'
 
 import airRavenLogo from '../assets/projects/airraven/logo.jpg'

@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
 import SlidingBanner from '../components/SlidingBanner'
@@ -20,13 +22,13 @@ const TLABPage = ({data}) => (
       groundbreaking technology company.'>
     </IntroBanner>
     <SlidingBanner>
-      <img src={websiteOne }></img>
-      <img src={websiteTwo}></img>
-      <img src={websiteThree }></img>
-      <img src={websiteFour}></img>
-      <img src={websiteFive}></img>
-      <img src={websiteSix}></img>
-      <img src={websiteSeven}></img>
+      <img src={websiteOne} alt='tlab website screen one'></img>
+      <img src={websiteTwo} alt='tlab website screen two'></img>
+      <img src={websiteThree} alt='tlab website screen three'></img>
+      <img src={websiteFour} alt='tlab website screen four'></img>
+      <img src={websiteFive} alt='tlab website screen five'></img>
+      <img src={websiteSix} alt='tlab website screen six'></img>
+      <img src={websiteSeven} alt='tlab website screen seven'></img>
     </SlidingBanner>
   </Layout>
 )

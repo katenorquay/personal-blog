@@ -1,5 +1,7 @@
 
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
@@ -21,8 +23,8 @@ const RacketPage = ({data}) => (
       new music magazine.'>
     </IntroBanner>
     <HalfWidthBanner>
-      <img className={styles.halfWidthBanner} src={processOne}></img>
-      <img className={styles.halfWidthBanner} src={processTwo}></img>
+      <img className={styles.halfWidthBanner} src={processOne} alt='collaging for racket magazine'></img>
+      <img className={styles.halfWidthBanner} src={processTwo} alt='collaging for racket magazine'></img>
     </HalfWidthBanner>
     <FullWidthBanner source={cover}></FullWidthBanner>
     <FullWidthBanner source={spreadOne}></FullWidthBanner>
