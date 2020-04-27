@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 
 import Header from '../Header'
 import Footer from '../Footer'
-import styles from './styles.module.scss'
 
 class Layout extends React.Component {
   render() {
@@ -19,7 +18,7 @@ class Layout extends React.Component {
           ]}
         />
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div className={styles.page}>
+        <div>
           {children}
         </div>
         <Footer/>

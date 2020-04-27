@@ -9,6 +9,10 @@ h1 {
   font-family: 'Merriweather';
 }
 
+h2 {
+  font-family: 'Merriweather';
+}
+
 p {
   font-family: 'Open Sans';
 }
@@ -59,7 +63,7 @@ p {
 }
 
 .halfWidthBanner {
-  width: 48%;
+  width: 100%;
 }
 
 .threeQuarterWidthBanner {
@@ -69,6 +73,16 @@ p {
 .oneQuarterWidthBanner {
   width: 23%;
 }
+
+.brewBrosLogo {
+  width:100%;
+  padding-bottom: 0;
+  margin-top:25px;
+  img {
+    width:100%;
+  }
+}
+
 
 @media only screen and (min-width: 600px) {
   .btnPrimary {
@@ -81,5 +95,15 @@ p {
     h1 {
       font-size: 60px;
     }
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .halfWidthBanner {
+    width: 48%;
+  }
+
+  .brewBrosLogo {
+    width: 48%;
   }
 }

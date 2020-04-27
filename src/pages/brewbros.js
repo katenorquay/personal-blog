@@ -6,6 +6,7 @@ import IntroBanner from '../components/IntroBanner'
 import FullWidthBanner from '../components/FullWidthBanner'
 import HalfWidthBanner from '../components/HalfWidthBanner'
 import SlidingBanner from '../components/SlidingBanner'
+
 import introImage from '../assets/intro.png'
 import logo from '../assets/projects/brewbros/logo.jpg'
 import appScreensOne from '../assets/projects/brewbros/appScreensOne.jpg'
@@ -19,9 +20,9 @@ const BrewBrosPage = ({data}) => (
       title='Brew Bros'
       description='UX and UI design for mobile app booking system'>
     </IntroBanner>
-    <FullWidthBanner source={logo} altText='Brew bros logo'></FullWidthBanner>
     <HalfWidthBanner>
       <div className={styles.halfWidthBanner}>
+        <h2>Project Description</h2>
         <p>
           Our brief was to design the UX and UI for a brewing company, with the goal of increasing signups for tours and workshops.
         </p>
@@ -38,7 +39,9 @@ const BrewBrosPage = ({data}) => (
           Thirdly I created wireframes. These allow the functionality and layout to be refined separately from the branding, making the design faster to iterate on.
         </p>
       </div>
-      <img className={styles.halfWidthBanner} src={introImage}></img>
+      <div className={styles.brewBrosLogo}>
+        <img src={logo} alt='Brew bros logo'></img>
+      </div>
     </HalfWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>
     <FullWidthBanner source={introImage}></FullWidthBanner>

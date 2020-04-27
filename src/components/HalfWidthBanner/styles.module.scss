@@ -1,22 +1,15 @@
 .flexContainer {
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content: space-between;
   width: 90%;
   margin: 75px auto;
 }
 
-.halfWidthBanner {
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 850px) {
   .flexContainer {
     display:flex;
-    flex-direction:column;
-  }
-  .halfWidthBanner {
-    width: 48%;
+    flex-direction:row;
   }
 }
 
