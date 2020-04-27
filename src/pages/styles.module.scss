@@ -9,6 +9,10 @@ h1 {
   font-family: 'Merriweather';
 }
 
+p {
+  font-family: 'Open Sans';
+}
+
 .projectContainer {
   width:80%;
   display: flex;
@@ -19,6 +23,10 @@ h1 {
   margin-right: auto;
   margin-top: 50px;
   margin-bottom:50px;
+}
+
+.textSection {
+  margin-right: 35px;
 }
 
 .btnPrimary {
@@ -42,7 +50,7 @@ h1 {
   background-color: #111D4A;
 
   h1 {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 
