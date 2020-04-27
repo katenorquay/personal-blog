@@ -17,15 +17,30 @@ import campaignPostcard from '../assets/projects/campaign/postcardSideOne.jpg'
 const HomePage = ({data}) => {
   return (
     <Layout data={data}>
-      <IntroBanner title={'Kate Norquay Main description, bakshh dhfjf jdjd fhh sjhf hjd'}>
-        <button className={styles.btnPrimary}>Contact Me</button>
-      </IntroBanner>
+      <div className={styles.mainBanner}>
+        <div className={styles.mainInner}>
+          <h1>Kate Norquay Main description, bakshh dhfjf jdjd fhh sjhf hjd</h1>
+          <button className={styles.btnPrimary}>Contact Me</button>
+        </div>
+      </div>
       <div className={styles.projectContainer}>
         <ProjectLink
           title='Air Raven'
           link='/airraven'
           description='Branding for a Norwegian Airline.'
           image={airRavenLogo}
+        />
+        <ProjectLink
+          title='Eight'
+          link='/eight'
+          description='Branding for a nap pod rental store for high achieving Wall Street Professionals.'
+          image={eightLogo}
+        />
+        <ProjectLink
+          title='Racket'
+          link='/racket'
+          description='Cover and article for first issue of a new music magazine.'
+          image={racketSpread}
         />
         <ProjectLink
           title='Brew Bros'
@@ -40,22 +55,10 @@ const HomePage = ({data}) => {
           image={campaignPostcard}
         />
         <ProjectLink
-          title='Eight'
-          link='/eight'
-          description='Branding for a nap pod rental store for high achieving Wall Street Professionals.'
-          image={eightLogo}
-        />
-        <ProjectLink
           title='TLAB'
           link='/tlab'
           description='Annual report microsite to showcase the achievements of T-LAB - a groundbreaking technology company.'
           image={tlabWebsite}
-        />
-        <ProjectLink
-          title='Racket'
-          link='/racket'
-          description='Cover and article for first issue of a new music magazine.'
-          image={racketSpread}
         />
       </div>
     </Layout>

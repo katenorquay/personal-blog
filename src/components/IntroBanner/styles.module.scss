@@ -1,20 +1,18 @@
 .introBanner {
   width:100%;
-  height:75vh;
+  height:40vh;
   display:flex;
   justify-content: center;
   align-items: center;
   background-color: #111D4A;
 
   h1 {
-    font-size: 60px;
-    color: #17FFF5;
-    font-family: 'Merriweather';
+    font-size: 45px;
   }
 
   p {
     font-family: 'Open Sans';
-    font-size: 35px;
+    font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
   }
@@ -22,4 +20,16 @@
 
 .introInner {
   width: 75%;
+}
+
+@media only screen and (min-width: 600px) {
+  .introBanner {
+    height:75vh;
+    h1 {
+      font-size: 60px;
+    }
+    p {
+      font-size: 35px;
+    }
+  }
 }

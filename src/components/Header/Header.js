@@ -8,7 +8,11 @@ import styles from './styles.module.scss'
 const Header = () => {
   return (
     <div className={styles.header}>
-    <Link to="/">Menu</Link>
+    <Link to="/">
+      <span class="material-icons">
+        home
+      </span>
+    </Link>
   </div>
   )
 }

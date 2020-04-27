@@ -10,6 +10,7 @@ class Layout extends React.Component {
     let { data, children } = this.props
     return (
       <div>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
