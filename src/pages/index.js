@@ -13,6 +13,14 @@ import tlabWebsite from '../assets/projects/tlab/websiteOne.png'
 import racketSpread from '../assets/projects/racket/spreadOne.jpg'
 import campaignPostcard from '../assets/projects/campaign/postcardSideOne.jpg'
 
+import airRavenCover from '../assets/projects/airraven/cover.jpg'
+import eightCover from '../assets/projects/eight/cover.jpg'
+import brewBrosCover from '../assets/projects/brewbros/cover.jpg'
+import campaignCover from '../assets/projects/campaign/cover.jpg'
+import tlabCover from '../assets/projects/tlab/cover.jpg'
+
+
+
 
 const HomePage = ({data}) => {
   return (
@@ -28,13 +36,13 @@ const HomePage = ({data}) => {
           title='Air Raven'
           link='/airraven'
           description='Branding for a Norwegian Airline.'
-          image={airRavenLogo}
+          image={airRavenCover}
         />
         <ProjectLink
           title='Eight'
           link='/eight'
           description='Branding for a nap pod rental store for high achieving Wall Street Professionals.'
-          image={eightLogo}
+          image={eightCover}
         />
         <ProjectLink
           title='Racket'
@@ -46,19 +54,19 @@ const HomePage = ({data}) => {
           title='Brew Bros'
           link='/brewbros'
           description='UX and UI design for a brewing company which teaches people to make their own homebrew through workshops and tours.'
-          image={brewBrosLogo}
+          image={brewBrosCover}
         />
         <ProjectLink
           title='Campaign'
           link='/campaign'
           description='Australian Flower Council online popup store selling personalised flower bouquets.'
-          image={campaignPostcard}
+          image={campaignCover}
         />
         <ProjectLink
           title='TLAB'
           link='/tlab'
           description='Annual report microsite to showcase the achievements of T-LAB - a groundbreaking technology company.'
-          image={tlabWebsite}
+          image={tlabCover}
         />
       </div>
     </Layout>
