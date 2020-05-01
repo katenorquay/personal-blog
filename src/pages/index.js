@@ -19,7 +19,7 @@ const HomePage = ({data}) => {
       <div className={styles.mainBanner}>
         <div className={styles.mainInner}>
           <h1>Kate Norquay Main description, bakshh dhfjf jdjd fhh sjhf hjd</h1>
-          <button className={styles.btnPrimary}>Contact Me</button>
+          <a href='/contact' className={styles.btnPrimary}>Contact Me</a>
         </div>
       </div>
       <div className={styles.projectContainer}>
