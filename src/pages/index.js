@@ -6,21 +6,12 @@ import Layout from '../components/Layout'
 import ProjectLink from '../components/ProjectLink'
 import styles from './styles.module.scss'
 
-import airRavenLogo from '../assets/projects/airraven/logo.jpg'
-import brewBrosLogo from '../assets/projects/brewbros/logo.jpg'
-import eightLogo from '../assets/projects/eight/eightSign.jpg'
-import tlabWebsite from '../assets/projects/tlab/websiteOne.png'
-import racketSpread from '../assets/projects/racket/spreadOne.jpg'
-import campaignPostcard from '../assets/projects/campaign/postcardSideOne.jpg'
-
-import airRavenCover from '../assets/projects/airraven/cover.jpg'
-import eightCover from '../assets/projects/eight/cover.jpg'
-import brewBrosCover from '../assets/projects/brewbros/cover.jpg'
-import campaignCover from '../assets/projects/campaign/cover.jpg'
-import tlabCover from '../assets/projects/tlab/cover.jpg'
-
-
-
+import airRavenCover from '../assets/projects/airraven/cover.png'
+import eightCover from '../assets/projects/eight/cover.png'
+import brewBrosCover from '../assets/projects/brewbros/cover.png'
+import campaignCover from '../assets/projects/campaign/cover.png'
+import tlabCover from '../assets/projects/tlab/cover.png'
+import racketCover from '../assets/projects/racket/cover.png'
 
 const HomePage = ({data}) => {
   return (
@@ -48,7 +39,7 @@ const HomePage = ({data}) => {
           title='Racket'
           link='/racket'
           description='Cover and article for first issue of a new music magazine.'
-          image={racketSpread}
+          image={racketCover}
         />
         <ProjectLink
           title='Brew Bros'

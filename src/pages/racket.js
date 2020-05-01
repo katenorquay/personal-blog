@@ -9,9 +9,10 @@ import HalfWidthBanner from '../components/HalfWidthBanner'
 
 import processOne from '../assets/projects/racket/processOne.jpg'
 import processTwo from '../assets/projects/racket/processTwo.jpg'
-import cover from '../assets/projects/racket/cover.jpg'
+import coverSpread from '../assets/projects/racket/coverSpread.jpg'
 import spreadOne from '../assets/projects/racket/spreadOne.jpg'
-import spreadTwo from '../assets/projects/racket/spreadTwo.jpg'
+import spreadTwo from '../assets/projects/racket/spreadTwo.png'
+import spreadThree from '../assets/projects/racket/spreadThree.png'
 
 import styles from './styles.module.scss'
 
@@ -26,9 +27,12 @@ const RacketPage = ({data}) => (
       <img className={styles.halfWidthBanner} src={processOne} alt='collaging for racket magazine'></img>
       <img className={styles.halfWidthBanner} src={processTwo} alt='collaging for racket magazine'></img>
     </HalfWidthBanner>
-    <FullWidthBanner source={cover}></FullWidthBanner>
-    <FullWidthBanner source={spreadOne}></FullWidthBanner>
-    <FullWidthBanner source={spreadTwo}></FullWidthBanner>
+    <FullWidthBanner source={coverSpread} altText='Magazine cover'></FullWidthBanner>
+    <FullWidthBanner source={spreadOne} altText='Magazine spread one'></FullWidthBanner>
+    <HalfWidthBanner>
+      <img className={styles.halfWidthBanner} src={spreadTwo} alt='Magazine spread two'></img>
+      <img className={styles.halfWidthBanner} src={spreadThree} alt='Magazine spread three'></img>
+    </HalfWidthBanner>
   </Layout>
 )
 
