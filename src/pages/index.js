@@ -42,21 +42,21 @@ const HomePage = ({data}) => {
           image={racketCover}
         />
         <ProjectLink
-          title='Brew Bros'
-          link='/brewbros'
-          description='UX and UI design for a brewing company which teaches people to make their own homebrew through workshops and tours.'
-          image={brewBrosCover}
-        />
-        <ProjectLink
           title='Campaign'
           link='/campaign'
           description='Australian Flower Council online popup store selling personalised flower bouquets.'
           image={campaignCover}
         />
         <ProjectLink
+          title='Brew Bros'
+          link='/brewbros'
+          description='UX and UI design for mobile app booking system.'
+          image={brewBrosCover}
+        />
+        <ProjectLink
           title='TLAB'
           link='/tlab'
-          description='Annual report microsite to showcase the achievements of T-LAB - a groundbreaking technology company.'
+          description='Annual report microsite showcasing T-LAB - a groundbreaking technology company.'
           image={tlabCover}
         />
       </div>

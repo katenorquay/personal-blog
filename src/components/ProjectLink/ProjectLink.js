@@ -4,7 +4,7 @@ import styles from './styles.module.scss'
 
 const ProjectLink = ({ link, title, description, image }) => (
   <Link to={link} className={styles.projectBlock}>
-    <img src={image}></img>
+    <img className={styles.coverPhoto} src={image}></img>
     <div className={styles.projectText}>
       <p className={styles.title}>{title}</p>
       <p className={styles.description}>{description}</p>

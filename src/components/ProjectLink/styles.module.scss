@@ -35,9 +35,11 @@
     bottom: 0;
   }
 
-  img {
-    width: 100%;
-    height:200px;
+  .coverPhoto {
+    width:100%;
+    img {
+      width:100%;
+    }
   }
 }
 
