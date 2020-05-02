@@ -1,11 +1,14 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import styles from './styles.module.scss'
 
 const success = ({data}) => {
   return (
     <Layout data={data}>
-      <h1>Thanks!</h1>
+      <div className={styles.contactFormContainer}>
+        <h2>Thanks for your message!</h2>
+      </div>
     </Layout>
   )
 }
