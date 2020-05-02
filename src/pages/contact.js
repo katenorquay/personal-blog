@@ -6,20 +6,21 @@ import styles from './styles.module.scss'
 const contact = ({data}) => {
   return (
     <Layout data={data}>
-      <div className={styles.contactForm}>
+      <div className={styles.contactFormContainer}>
         <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit" className={styles.btnPrimary}>Send</button>
-          </p>
+          <div className={styles.formRow}>
+            <label for='name'>Your Name:</label>
+            <input type="text" name="name" />
+          </div>
+          <div className={styles.formRow}>
+            <label for='email'>Your Email:</label>
+            <input type="email" name="email" />
+          </div>
+          <div className={styles.formRow}>
+            <label for='message'>Message:</label>
+            <textarea name="message"></textarea>
+          </div>
+          <button type="submit" className={styles.btnSecondary}>Send</button>
         </form>
       </div>
     </Layout>

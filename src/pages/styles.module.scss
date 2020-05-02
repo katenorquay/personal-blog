@@ -55,10 +55,20 @@ label {
   margin: 20px 0;
 }
 
-// .btnSmall {
-//   padding: 5px 10px;
-//   font-size: 10px;
-// }
+.btnSecondary {
+  display:block;
+  text-align:center;
+  background-color: #FDE135;
+  color: #111D4A;
+  padding: 15px 25px;
+  border-radius: 3px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 20px 0;
+}
 
 .mainBanner {
   width:100%;
@@ -69,13 +79,34 @@ label {
   background-color: #111D4A;
 }
 
-.contactForm {
-  width:100%;
-  height:100vh;
+.contactFormContainer {
+  width:75%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  height:90vh;
   display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #111D4A;
+  form {
+    width: 100%;
+  }
+  label {
+    color: #111D4A;
+    margin: 5px 0;
+    font-weight:600
+  }
+  input {
+    height: 30px;
+  }
+  textarea {
+    height:100px;
+  }
+  .formRow {
+    display:flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
 }
 
 .mainInner {
