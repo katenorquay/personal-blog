@@ -23,8 +23,12 @@ const CampaignPage = ({data}) => (
       description='Australian Flower Council online popup store selling personalised flower bouquets.'>
     </IntroBanner>
     <HalfWidthBanner>
-      <img className={styles.halfWidthBanner} src={postcardSideOne} alt='Campaign postcard side one'></img>
-      <img className={styles.halfWidthBanner} src={postcardSideTwo} alt='Campaign postcard side two'></img>
+      <div className={styles.halfWidthBanner}>
+        <img src={postcardSideOne} alt='Campaign postcard side one'></img>
+      </div>
+      <div className={styles.halfWidthBanner}>
+        <img src={postcardSideTwo} alt='Campaign postcard side two'></img>
+      </div>
     </HalfWidthBanner>
     <FullWidthBanner source={frankieMagazine} altText='Campaign postcard inside Frankie magazine'></FullWidthBanner>
     <SlidingBanner>

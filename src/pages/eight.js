@@ -20,8 +20,12 @@ const EightPage = ({data}) => (
       description='Branding for a nap pod rental store for high achieving Wall Street Professionals.'>
     </IntroBanner>
     <HalfWidthBanner>
+    <div className={styles.halfWidthBanner}>
       <h1>Eight hours sleep, infinite productivity</h1>
-      <img className={styles.halfWidthBanner} src={eightSign} alt='sign with eight logo'></img>
+    </div>
+    <div className={styles.halfWidthBanner}>
+      <img src={eightSign} alt='sign with eight logo'></img>
+    </div>
     </HalfWidthBanner>
     <FullWidthBanner source={styletile} altText='eight style tile'></FullWidthBanner>
     <FullWidthBanner source={instagram} altText='eight instagram images'></FullWidthBanner>

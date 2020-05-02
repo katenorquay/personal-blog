@@ -24,14 +24,22 @@ const RacketPage = ({data}) => (
       new music magazine.'>
     </IntroBanner>
     <HalfWidthBanner>
-      <img className={styles.halfWidthBanner} src={processOne} alt='collaging for racket magazine'></img>
-      <img className={styles.halfWidthBanner} src={processTwo} alt='collaging for racket magazine'></img>
+    <div className={styles.halfWidthBanner}>
+    <img src={processOne} alt='collaging for racket magazine'></img>
+    </div>
+    <div className={styles.halfWidthBanner}>
+      <img src={processTwo} alt='collaging for racket magazine'></img>
+    </div>
     </HalfWidthBanner>
     <FullWidthBanner source={coverSpread} altText='Magazine cover'></FullWidthBanner>
     <FullWidthBanner source={spreadOne} altText='Magazine spread one'></FullWidthBanner>
     <HalfWidthBanner>
-      <img className={styles.halfWidthBanner} src={spreadTwo} alt='Magazine spread two'></img>
-      <img className={styles.halfWidthBanner} src={spreadThree} alt='Magazine spread three'></img>
+    <div className={styles.halfWidthBanner}>
+      <img src={spreadTwo} alt='Magazine spread two'></img>
+    </div>
+    <div className={styles.halfWidthBanner}>
+      <img src={spreadThree} alt='Magazine spread three'></img>
+    </div>
     </HalfWidthBanner>
   </Layout>
 )
