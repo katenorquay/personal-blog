@@ -9,15 +9,15 @@ const contact = ({data}) => {
       <div className={styles.contactFormContainer}>
         <form name="contact" method="POST" data-netlify="true">
           <div className={styles.formRow}>
-            <label for='name'>Your Name:</label>
+            <label htmlFor='name'>Your Name:</label>
             <input type="text" name="name" />
           </div>
           <div className={styles.formRow}>
-            <label for='email'>Your Email:</label>
+            <label htmlFor='email'>Your Email:</label>
             <input type="email" name="email" />
           </div>
           <div className={styles.formRow}>
-            <label for='message'>Message:</label>
+            <label htmlFor='message'>Message:</label>
             <textarea name="message"></textarea>
           </div>
           <button type="submit" className={styles.btnSecondary}>Send</button>

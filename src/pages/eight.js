@@ -21,7 +21,7 @@ const EightPage = ({data}) => (
     </IntroBanner>
     <HalfWidthBanner>
     <div className={styles.halfWidthBanner}>
-      <h1>Eight hours sleep, infinite productivity</h1>
+      <h2>Eight hours sleep. <br></br> Infinite productivity.</h2>
     </div>
     <div className={styles.halfWidthBanner}>
       <img src={eightSign} alt='sign with eight logo'></img>

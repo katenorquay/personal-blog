@@ -12,6 +12,7 @@ h1 {
 
 h2 {
   font-family: 'Merriweather';
+  font-size: 26px;
 }
 
 p {
@@ -77,6 +78,7 @@ label {
   justify-content: center;
   align-items: center;
   background-color: #111D4A;
+  padding-top:50px;
 }
 
 .contactFormContainer {
@@ -115,6 +117,9 @@ label {
 
 .halfWidthBanner {
   width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
   img {
     width:100%;
   }
@@ -146,11 +151,19 @@ label {
     }
   }
 
+  h2 {
+    font-size: 40px;
+  }
+
   .halfWidthBanner {
     width: 48%;
   }
 
   .brewBrosLogo {
     width: 48%;
+  }
+
+  .halfWidthBanner:first-child {
+    margin-bottom:0;
   }
 }

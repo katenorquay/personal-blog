@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className={styles.header}>
     <Link to="/">
-      <span className="material-icons">
+      <span className="material-icons iconLight">
         home
       </span>
     </Link>

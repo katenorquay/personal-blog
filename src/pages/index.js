@@ -18,7 +18,7 @@ const HomePage = ({data}) => {
     <Layout data={data}>
       <div className={styles.mainBanner}>
         <div className={styles.mainInner}>
-          <h1>Kate Norquay Main description, bakshh dhfjf jdjd fhh sjhf hjd</h1>
+          <h1>Kate Norquay's Graphic Design Portfolio</h1>
           <a href='/contact' className={styles.btnPrimary}>Contact Me</a>
         </div>
       </div>
