@@ -1,0 +1,15 @@
+.flexContainer {
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  width: 90%;
+  margin: 50px auto;
+}
+
+@media only screen and (min-width: 850px) {
+  .flexContainer {
+    display:flex;
+    flex-direction:row;
+  }
+}
+
