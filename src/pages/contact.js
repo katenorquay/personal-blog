@@ -7,7 +7,8 @@ const contact = ({data}) => {
   return (
     <Layout data={data}>
       <div className={styles.contactFormContainer}>
-        <form name="contact" action='/contact' method="POST" data-netlify="true">
+        <form name="contact" action='/success' method="POST" data-netlify="true">
+          <input type="hidden" name="contact" value="contact" />
           <div className={styles.formRow}>
             <label htmlFor='name'>Your Name:</label>
             <input type="text" name="name" />
