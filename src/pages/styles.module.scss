@@ -39,6 +39,9 @@ label {
 }
 
 .btnPrimary {
+  display:block;
+  width: 120px;
+  text-align:center;
   background-color: #FDE135;
   color: #111D4A;
   box-shadow: 3px 3px 6px 0 #070d21;
@@ -49,7 +52,7 @@ label {
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 // .btnSmall {
@@ -81,6 +84,13 @@ label {
 
 .halfWidthBanner {
   width: 100%;
+  img {
+    width:100%;
+  }
+}
+
+.halfWidthBanner:first-child {
+  margin-bottom:50px;
 }
 
 .threeQuarterWidthBanner {
@@ -91,20 +101,11 @@ label {
   width: 23%;
 }
 
-.brewBrosLogo {
-  width:100%;
-  padding-bottom: 0;
-  margin-top:25px;
-  img {
-    width:100%;
-  }
-}
-
-
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 850px) {
   .btnPrimary {
     padding: 25px 35px;
     font-size: 25px;
+    width: 175px;
   }
 
   .mainBanner {
@@ -113,9 +114,7 @@ label {
       font-size: 60px;
     }
   }
-}
 
-@media only screen and (min-width: 850px) {
   .halfWidthBanner {
     width: 48%;
   }

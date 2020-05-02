@@ -3,14 +3,14 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import IntroBanner from '../components/IntroBanner'
-import FullWidthBanner from '../components/FullWidthBanner'
 import HalfWidthBanner from '../components/HalfWidthBanner'
 import SlidingBanner from '../components/SlidingBanner'
 
-import introImage from '../assets/intro.png'
 import logo from '../assets/projects/brewbros/logo.jpg'
 import appScreensOne from '../assets/projects/brewbros/appScreensOne.jpg'
 import appScreensTwo from '../assets/projects/brewbros/appScreensTwo.jpg'
+import cardsorting from '../assets/projects/brewbros/cardsorting.jpg'
+import wireframes from '../assets/projects/brewbros/wireframes.jpg'
 
 import styles from './styles.module.scss'
 
@@ -39,12 +39,18 @@ const BrewBrosPage = ({data}) => (
           Thirdly I created wireframes. These allow the functionality and layout to be refined separately from the branding, making the design faster to iterate on.
         </p>
       </div>
-      <div className={styles.brewBrosLogo}>
+      <div className={styles.halfWidthBanner}>
         <img src={logo} alt='Brew bros logo'></img>
       </div>
     </HalfWidthBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
-    <FullWidthBanner source={introImage}></FullWidthBanner>
+    <HalfWidthBanner>
+    <div className={styles.halfWidthBanner}>
+      <img src={cardsorting} alt='Card sorting exercise'></img>
+    </div>
+    <div className={styles.halfWidthBanner}>
+      <img src={wireframes} alt='Wireframes'></img>
+    </div>
+    </HalfWidthBanner>
     <SlidingBanner>
       <img src={appScreensOne} alt='Brew Bros app screens one'></img>
       <img src={appScreensTwo} alt='Brew Bros app screens two'></img>
