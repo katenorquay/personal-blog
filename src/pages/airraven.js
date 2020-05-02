@@ -1,28 +1,26 @@
-//Core Dependencies
 import React from 'react'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-
-//Styles
-import styles from './styles.module.scss'
+import IntroBanner from '../components/IntroBanner'
+import FullWidthBanner from '../components/FullWidthBanner'
+import logo from '../assets/projects/airraven/logo.jpg'
+import website from '../assets/projects/airraven/website.jpg'
+import plane from '../assets/projects/airraven/plane.png'
+import instagram from '../assets/projects/airraven/instagram.jpg'
+import poster from '../assets/projects/airraven/poster.png'
 
 const AirRavenPage = ({data}) => (
   <Layout data={data}>
-
-
-<ul className={styles.projectList}>
-        {data.allMarkdownRemark.edges.map(({ node }) => {
-          return (
-            <li key={node.id} className={styles.listItem}>
-              <img className={styles.projectImage} src={node.frontmatter.imageOne.childImageSharp.resize.src}></img>
-              <img className={styles.projectImage} src={node.frontmatter.imageTwo.childImageSharp.resize.src}></img>
-              <img className={styles.projectImage} src={node.frontmatter.imageThree.childImageSharp.resize.src}></img>
-              <img className={styles.projectImage} src={node.frontmatter.imageFour.childImageSharp.resize.src}></img>
-              <img className={styles.projectImage} src={node.frontmatter.imageFive.childImageSharp.resize.src}></img>
-            </li>
-          )
-        })}
-      </ul>
+    <IntroBanner
+      title='Air Raven'
+      description='Branding for a Norwegian Airline.'>
+    </IntroBanner>
+    <FullWidthBanner source={logo} altText='Air Raven logo'></FullWidthBanner>
+    <FullWidthBanner source={poster} altText='Air Raven poster in bus shelter'></FullWidthBanner>
+    <FullWidthBanner source={plane} altText='Air Raven plane'></FullWidthBanner>
+    <FullWidthBanner source={instagram} altText='Air Raven instagram'></FullWidthBanner>
+    <FullWidthBanner source={website} altText='Air Raven website'></FullWidthBanner>
   </Layout>
 )
 
@@ -33,26 +31,6 @@ export const query = graphql`
     site {
       siteMetadata {
         title
-      }
-    },
-    allMarkdownRemark (
-      filter: { fileAbsolutePath: {regex : "\/airraven/"} }
-    ) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            description
-            slug
-            imageOne { childImageSharp { resize(width:1000,height:650) { src } } },
-            imageTwo { childImageSharp { resize(width:1000,height:650) { src } } },
-            imageThree { childImageSharp { resize(width:1000,height:650) { src } } },
-            imageFour { childImageSharp { resize(width:1000,height:650) { src } } },
-            imageFive { childImageSharp { resize(width:1000,height:650) { src } } },
-          }
-        }
       }
     }
   }

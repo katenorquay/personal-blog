@@ -1,28 +1,40 @@
-//Core Dependencies
+
 import React from 'react'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import IntroBanner from '../components/IntroBanner'
+import FullWidthBanner from '../components/FullWidthBanner'
+import HalfWidthBanner from '../components/HalfWidthBanner'
+import SlidingBanner from '../components/SlidingBanner'
 
-//Styles
+import postcardSideOne from '../assets/projects/campaign/postcardSideOne.jpg'
+import postcardSideTwo from '../assets/projects/campaign/postcardSideTwo.jpg'
+import frankieMagazine from '../assets/projects/campaign/frankieMagazine.jpg'
+import appScreensOne from '../assets/projects/campaign/appScreensOne.jpg'
+import appScreensTwo from '../assets/projects/campaign/appScreensTwo.jpg'
+
 import styles from './styles.module.scss'
 
 const CampaignPage = ({data}) => (
   <Layout data={data}>
-
-
-<ul className={styles.projectList}>
-        {data.allMarkdownRemark.edges.map(({ node }) => {
-          return (
-            <li key={node.id} className={styles.listItem}>
-              <img className={styles.projectImage} src={node.frontmatter.imageOne.childImageSharp.resize.src}></img>
-              <img className={styles.projectImage} src={node.frontmatter.imageTwo.childImageSharp.resize.src}></img>
-              <img className={styles.projectImage} src={node.frontmatter.imageThree.childImageSharp.resize.src}></img>
-              <img className={styles.projectImage} src={node.frontmatter.imageFour.childImageSharp.resize.src}></img>
-              <img className={styles.projectImage} src={node.frontmatter.imageFive.childImageSharp.resize.src}></img>
-            </li>
-          )
-        })}
-      </ul>
+    <IntroBanner
+      title='Campaign'
+      description='Australian Flower Council online popup store selling personalised flower bouquets.'>
+    </IntroBanner>
+    <HalfWidthBanner>
+      <div className={styles.halfWidthBanner}>
+        <img src={postcardSideOne} alt='Campaign postcard side one'></img>
+      </div>
+      <div className={styles.halfWidthBanner}>
+        <img src={postcardSideTwo} alt='Campaign postcard side two'></img>
+      </div>
+    </HalfWidthBanner>
+    <FullWidthBanner source={frankieMagazine} altText='Campaign postcard inside Frankie magazine'></FullWidthBanner>
+    <SlidingBanner>
+      <img src={appScreensOne} alt='Campaign app screens one'></img>
+      <img src={appScreensTwo} alt='Campaign app screens two'></img>
+    </SlidingBanner>
   </Layout>
 )
 
@@ -33,26 +45,6 @@ export const query = graphql`
     site {
       siteMetadata {
         title
-      }
-    },
-    allMarkdownRemark (
-      filter: { fileAbsolutePath: {regex : "\/campaign/"} }
-    ) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            description
-            slug
-            imageOne { childImageSharp { resize(width:1000,height:650) { src } } },
-            imageTwo { childImageSharp { resize(width:1000,height:650) { src } } },
-            imageThree { childImageSharp { resize(width:1000,height:650) { src } } },
-            imageFour { childImageSharp { resize(width:1000,height:650) { src } } },
-            imageFive { childImageSharp { resize(width:1000,height:650) { src } } }
-          }
-        }
       }
     }
   }

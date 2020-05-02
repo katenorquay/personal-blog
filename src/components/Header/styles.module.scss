@@ -1,14 +1,18 @@
 .header {
-  padding: 1.45rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   position: fixed;
   width:100%;
-  height:85px;
-  background-color:#ffffff;
+  height:25px;
+  background-color:#111D4A;
+  color: #17FFF5;
+  font-family: 'Merriweather';
   z-index: 100;
+
+  span {
+    color: #ffffff;
+  }
 }
 
 .navButtons {
@@ -41,16 +45,4 @@
   letter-spacing: 1px;
   color: black;
   margin: 0
-}
-
-.designActive {
-  border: solid 3px #ff0000;
-}
-
-.codeActive {
-  border: solid 3px #0099ff;;
-}
-
-.writingActive {
-  border: solid 3px #FFD800;
 }
