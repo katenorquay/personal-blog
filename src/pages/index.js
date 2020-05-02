@@ -28,36 +28,42 @@ const HomePage = ({data}) => {
           link='/airraven'
           description='Branding for a Norwegian Airline.'
           image={airRavenCover}
+          altText='Air Raven Mobile Logo'
         />
         <ProjectLink
           title='Eight'
           link='/eight'
           description='Branding for a nap pod rental store for high achieving Wall Street Professionals.'
           image={eightCover}
+          altText='Eight Logo'
         />
         <ProjectLink
           title='Racket'
           link='/racket'
           description='Cover and article for first issue of a new music magazine.'
           image={racketCover}
+          altText='Racket branding element'
         />
         <ProjectLink
           title='Campaign'
           link='/campaign'
           description='Australian Flower Council online popup store selling personalised flower bouquets.'
           image={campaignCover}
+          altText='Campaign branding element'
         />
         <ProjectLink
           title='Brew Bros'
           link='/brewbros'
           description='UX and UI design for mobile app booking system.'
           image={brewBrosCover}
+          altText='Brew Bros Mobile Logo'
         />
         <ProjectLink
           title='TLAB'
           link='/tlab'
           description='Annual report microsite showcasing T-LAB - a groundbreaking technology company.'
           image={tlabCover}
+          altText='TLAB Branding element'
         />
       </div>
     </Layout>

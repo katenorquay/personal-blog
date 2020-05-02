@@ -2,9 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styles from './styles.module.scss'
 
-const ProjectLink = ({ link, title, description, image }) => (
+const ProjectLink = ({ link, title, description, image, altText }) => (
   <Link to={link} className={styles.projectBlock}>
-    <img className={styles.coverPhoto} src={image}></img>
+    <img className={styles.coverPhoto} src={image} altText={altText}></img>
     <div className={styles.projectText}>
       <p className={styles.title}>{title}</p>
       <p className={styles.description}>{description}</p>
