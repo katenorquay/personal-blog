@@ -29,6 +29,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: process.env.PIXEL_ID,
+      },
+    },
+    {
      resolve: `gatsby-plugin-google-fonts`,
      options: {
        fonts: [
